@@ -1,5 +1,6 @@
-<section class="m-6 bg-white dark:bg-neutral-950">
-	<div class="mx-auto max-w-screen-xl px-4 py-8 text-center lg:px-12 lg:py-16">
+<section class="  bg-white pt-16 sm:pt-24 md:pt-28 lg:pt-32 dark:bg-neutral-950">
+	<div class="mx-auto max-w-screen-xl px-4 py-8 text-center sm:mt-20 lg:px-12 lg:py-16">
+		<!-- Content of the hero section -->
 		<!-- svelte-ignore a11y-no-interactive-element-to-noninteractive-role -->
 		<a
 			href="./"
