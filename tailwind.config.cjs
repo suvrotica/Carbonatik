@@ -11,6 +11,7 @@ const config = {
 	theme: {
 		extend: {
 			colors: {
+<<<<<<< HEAD
 				// neutral
 				primary: {
 					50: '#fafafa',
@@ -24,8 +25,16 @@ const config = {
 					800: '#262626',
 					900: '#171717'
 				}
+=======
+				// zinc
+				// primary: {"50":"#fafafa","100":"#f4f4f5","200":"#e4e4e7","300":"#d4d4d8","400":"#a1a1aa","500":"#71717a","600":"#52525b","700":"#3f3f46","800":"#27272a","900":"#18181b"}
+>>>>>>> 7a452f58cb61ed64cf66102480dd01b6b2494841
 			}
 		}
 	}
 };
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7a452f58cb61ed64cf66102480dd01b6b2494841
 module.exports = config;

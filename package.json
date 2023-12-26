@@ -15,6 +15,7 @@
 		"@sveltejs/adapter-auto": "^3.0.0",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^3.0.0",
+<<<<<<< HEAD
 		"@types/eslint": "8.56.0",
 		"@typescript-eslint/eslint-plugin": "^6.0.0",
 		"@typescript-eslint/parser": "^6.0.0",
@@ -22,6 +23,14 @@
 		"eslint": "^8.56.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.35.1",
+=======
+		"@typescript-eslint/eslint-plugin": "^6.0.0",
+		"@typescript-eslint/parser": "^6.0.0",
+		"autoprefixer": "^10.4.16",
+		"eslint": "^8.28.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-svelte": "^2.30.0",
+>>>>>>> 7a452f58cb61ed64cf66102480dd01b6b2494841
 		"flowbite": "^2.2.1",
 		"flowbite-svelte": "^0.44.21",
 		"postcss": "^8.4.32",
@@ -36,5 +45,12 @@
 		"typescript": "^5.0.0",
 		"vite": "^5.0.3"
 	},
+<<<<<<< HEAD
 	"type": "module"
+=======
+	"type": "module",
+	"dependencies": {
+		"svelte-inview": "^4.0.2"
+	}
+>>>>>>> 7a452f58cb61ed64cf66102480dd01b6b2494841
 }
