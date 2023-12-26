@@ -1,4 +1,4 @@
-<section class="bg-white pt-4 dark:bg-neutral-900">
+<section class="mt-14 bg-white dark:bg-neutral-900">
 	<div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6">
 		<div class="gap-8 md:grid md:grid-cols-2 xl:gap-16">
 			<img
