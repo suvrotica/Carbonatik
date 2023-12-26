@@ -1,5 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /** @type { import("eslint").Linter.Config } */
+=======
+/** @type { import("eslint").Linter.FlatConfig } */
+>>>>>>> 7a452f58cb61ed64cf66102480dd01b6b2494841
 =======
 /** @type { import("eslint").Linter.FlatConfig } */
 >>>>>>> 7a452f58cb61ed64cf66102480dd01b6b2494841

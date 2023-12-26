@@ -1,7 +1,11 @@
 # create-svelte
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+=======
+Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+>>>>>>> 7a452f58cb61ed64cf66102480dd01b6b2494841
 =======
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 >>>>>>> 7a452f58cb61ed64cf66102480dd01b6b2494841
