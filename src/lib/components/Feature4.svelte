@@ -76,7 +76,7 @@
 				</ul>
 			</div>
 			<img
-				class="h-auto w-full lg:w-1/2"
+				class="mt-8 h-auto w-full lg:w-1/2"
 				src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/h4-YGz3jJqYZ9IqQDz59TqJWMzG9pcy2c.png"
 				alt="BFJK Real Estate"
 			/>
@@ -89,7 +89,7 @@
 				alt="BFJK Property"
 			/>
 			<div class="w-full lg:w-1/2">
-				<h2 class="mb-4 ml-2 text-4xl font-extrabold text-gray-900 dark:text-white">
+				<h2 class="mb-4 ml-2 mt-8 text-4xl font-extrabold text-gray-900 dark:text-white">
 					Investing in the Future
 				</h2>
 				<p class="mb-4 ml-2 text-gray-500 sm:text-xl dark:text-gray-400">
