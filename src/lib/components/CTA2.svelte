@@ -8,7 +8,7 @@
 			/>
 
 			<div>
-				<h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+				<h2 class="mb-4 mt-8 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
 					BFJK's Exclusive Property Listings
 				</h2>
 				<p class="mb-6 font-light text-gray-500 md:text-lg dark:text-gray-400">
