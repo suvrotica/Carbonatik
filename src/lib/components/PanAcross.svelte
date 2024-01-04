@@ -3,7 +3,7 @@
 	import { cubicOut } from 'svelte/easing';
 
 	export let images = [
-		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/d1-yDrCBNWGnz2pLH2qqrJDv55XqyAO6f.png',
+		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/d1-yDrCBNWGnz2pLH2qqrJDv55XqyAO6f.png','https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/DALL%C2%B7E%202024-01-05%2000.13.19%20-%20A%20luxurious%20home%20with%20a%20futuristic,%20sci-fi%20style,%20predominantly%20featuring%20materials%20like%20glass,%20carbon,%20chromium,%20and%20gold.%20The%20design%20should%20be%20sleek-i7XPBQG5AJEy4aX74gu8fTYjJnOVWi.png',
 		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/DALL%C2%B7E%202024-01-05%2001.10.36%20-%20A%20detailed%20architectural%20design%20presentation,%20showcasing%20an%20elegant%20and%20modern%20building.%20The%20image%20should%20feature%20a%20variety%20of%20perspectives%20and%20scales-yl3xyWb9PcLC2g5P2AfOQhvxdhOsoD.png',
 		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/f2-kxvzGHvUCZX4vPz3yrpSFda8Us1e2s.png',
 		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/v1-CQeSfNVJA2sUU6Y79IbHYy7x6YZCpv.png',
