@@ -1,5 +1,5 @@
 <script>
-	import { Alert, Button } from 'flowbite-svelte';
+	import { Alert, Button, P } from 'flowbite-svelte';
 	import Navigation from '$lib/components/Navigation.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import Feature1 from '$lib/components/Feature1.svelte';
@@ -14,11 +14,13 @@
 	import Pricing from '$lib/components/Pricing.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import Testimonials from '$lib/components/Testimonials.svelte';
+	import PanAcross from '$lib/components/PanAcross.svelte';
 	let colorOrder = 1;
 </script>
 
 <Navigation />
 <Hero />
+<PanAcross />
 <Feature1 />
 <CTA1 />
 <Pricing />
