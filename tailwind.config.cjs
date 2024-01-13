@@ -32,6 +32,7 @@ const config = {
 			}
 		}
 	},
+
 	plugins: [
 		plugin(function ({ addUtilities }) {
 			const newUtilities = {
@@ -42,6 +43,10 @@ const config = {
 				'.dark-bg2': {
 					backgroundImage:
 						"url('https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/a568a59d-3096-48a0-ad37-20cfe8fd0d9d-A4ZAc7iqIrhme3Bh6obbtJKh5vDHG7.png')"
+				},
+				'.dark-bg3': {
+					backgroundImage:
+						"url('https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/4110b4a3fedefd18163a515c994d2df4-J8QCt7X1ENxjwTP97C77nvHohyGUjR.jpg')"
 				},
 				'.light-bg': {
 					backgroundImage:
