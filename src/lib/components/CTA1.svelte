@@ -1,5 +1,5 @@
 <section
-	class=" light-bg dark:dark-bg bg-neutral-300 bg-contain bg-repeat pt-16 bg-blend-soft-light sm:pt-24 md:pt-28 lg:pt-32 dark:bg-neutral-950 dark:bg-blend-overlay"
+	class=" light-bg dark:dark-bg bg-neutral-300 bg-contain bg-repeat pt-16 bg-blend-soft-light sm:pt-24 md:pt-28 lg:pt-32 dark:bg-neutral-800 dark:bg-blend-overlay"
 >
 	<div
 		class="mx-auto max-w-screen-xl items-center gap-8 px-4 py-8 sm:py-16 md:grid md:grid-cols-2 lg:px-6 xl:gap-16"
