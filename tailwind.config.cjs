@@ -1,3 +1,4 @@
+const plugin = require('tailwindcss/plugin');
 const config = {
 	content: [
 		'./src/**/*.{html,js,svelte,ts}',
@@ -10,6 +11,10 @@ const config = {
 
 	theme: {
 		extend: {
+			backgroundImage: (theme) => ({
+				'dark-mode': "url('/path/to/dark/image.jpg')",
+				'light-mode': "url('/path/to/light/image.jpg')"
+			}),
 			colors: {
 				// neutral
 				primary: {
@@ -26,6 +31,22 @@ const config = {
 				}
 			}
 		}
-	}
+	},
+	plugins: [
+		plugin(function ({ addUtilities }) {
+			const newUtilities = {
+				'.dark-bg': {
+					backgroundImage:
+						"url('https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/b007d937821f91b1ad1f311f6f79fcb0-JKGcetgl0suJGyxueNJgV5Zrpnyi6a.jpg')"
+				},
+				'.light-bg': {
+					backgroundImage:
+						"url('https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/3b6edf4e4afbccc06fd500fc261f6680-25ZGagzpQQSwP7GliJHCpv53oc2PYH.jpg')"
+				}
+			};
+
+			addUtilities(newUtilities);
+		})
+	]
 };
 module.exports = config;

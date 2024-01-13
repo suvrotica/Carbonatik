@@ -1,4 +1,6 @@
-<section class="  bg-white pt-16 sm:pt-24 md:pt-28 lg:pt-32 dark:bg-neutral-950">
+<section
+	class=" light-bg dark:dark-bg bg-neutral-300 bg-contain bg-repeat pt-16 bg-blend-soft-light sm:pt-24 md:pt-28 lg:pt-32 dark:bg-neutral-950 dark:bg-blend-overlay"
+>
 	<div class="mx-auto max-w-screen-xl px-4 py-8 text-center sm:mt-20 lg:px-12 lg:py-16">
 		<!-- Content of the hero section -->
 		<!-- svelte-ignore a11y-no-interactive-element-to-noninteractive-role -->
