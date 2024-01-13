@@ -19,9 +19,9 @@
 	<Logo />
 	<NavHamburger />
 	<NavUl>
-		<NavLi href="./" active={true}>Home</NavLi>
+		<NavLi href="/" active={true}>Home</NavLi>
 
-		<NavLi href="./">Contact</NavLi>
+		<NavLi href="/contact">Contact</NavLi>
 	</NavUl>
 	<ToggleDark />
 </Navbar>

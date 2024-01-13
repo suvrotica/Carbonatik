@@ -90,13 +90,16 @@
 			/>
 			<div class="w-full lg:w-1/2">
 				<h2 class="mb-4 ml-2 mt-8 text-4xl font-extrabold text-gray-900 dark:text-white">
-					Investing in the Future
+					Investment Opportunities
 				</h2>
 				<p class="mb-4 ml-2 text-gray-500 sm:text-xl dark:text-gray-400">
-					Our investments go beyond properties; we invest in communities and sustainable
-					development, aiming to create long-term value for our clients and society. Our approach is
-					about creating a legacy – properties that stand the test of time, developments that bring
-					about positive change, and investments that yield sustainable returns.
+					Our strategic approach to asset management has consistently delivered outstanding results.
+					Explore investment opportunities with BFJK Corp. and be a part of our journey to reshape
+					the landscape of luxury real estate. Our investments go beyond properties; we invest in
+					communities and sustainable development, aiming to create long-term value for our clients
+					and society. Our approach is about creating a legacy – properties that stand the test of
+					time, developments that bring about positive change, and investments that yield
+					sustainable returns.
 				</p>
 				<!-- Bullet-like Points -->
 				<ul role="list" class="ml-2 space-y-4">

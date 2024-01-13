@@ -4,7 +4,7 @@
 	<div class="mx-auto max-w-screen-xl px-4 py-8 text-center sm:mt-20 lg:px-12 lg:py-16">
 		<!-- svelte-ignore a11y-no-interactive-element-to-noninteractive-role -->
 		<a
-			href="./"
+			href="/contact"
 			class="mb-7 inline-flex items-center justify-between rounded-full bg-gray-100 px-1 py-1 pr-4 text-sm text-gray-700 hover:bg-gray-200 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
 			role="alert"
 		>
@@ -44,7 +44,7 @@
 			class="mb-8 flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-x-4 sm:space-y-0 lg:mb-16"
 		>
 			<a
-				href="./"
+				href="/contact"
 				class="inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-3 text-center text-base font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
 			>
 				Learn more
@@ -61,7 +61,7 @@
 				>
 			</a>
 			<a
-				href="./"
+				href="/contact"
 				class="inline-flex items-center justify-center rounded-lg border border-gray-300 px-5 py-3 text-center text-base font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-800"
 			>
 				<svg
@@ -79,7 +79,7 @@
 		<div class="mx-auto px-4 text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
 			<span class="font-semibold uppercase text-gray-400">FEATURED IN</span>
 			<div class="mt-8 flex flex-wrap items-center justify-center text-gray-500 sm:justify-between">
-				<a href="./" class="mb-5 mr-5 hover:text-gray-800 lg:mb-0 dark:hover:text-gray-400">
+				<a href="/contact" class="mb-5 mr-5 hover:text-gray-800 lg:mb-0 dark:hover:text-gray-400">
 					<svg class="h-8" viewBox="0 0 132 29" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path
 							d="M39.4555 5.17846C38.9976 3.47767 37.6566 2.13667 35.9558 1.67876C32.8486 0.828369 20.4198 0.828369 20.4198 0.828369C20.4198 0.828369 7.99099 0.828369 4.88379 1.64606C3.21571 2.10396 1.842 3.47767 1.38409 5.17846C0.566406 8.28567 0.566406 14.729 0.566406 14.729C0.566406 14.729 0.566406 21.2051 1.38409 24.2796C1.842 25.9804 3.183 27.3214 4.88379 27.7793C8.0237 28.6297 20.4198 28.6297 20.4198 28.6297C20.4198 28.6297 32.8486 28.6297 35.9558 27.812C37.6566 27.3541 38.9976 26.0131 39.4555 24.3123C40.2732 21.2051 40.2732 14.7618 40.2732 14.7618C40.2732 14.7618 40.3059 8.28567 39.4555 5.17846Z"
@@ -116,7 +116,7 @@
 						/>
 					</svg>
 				</a>
-				<a href="./" class="mb-5 mr-5 hover:text-gray-800 lg:mb-0 dark:hover:text-gray-400">
+				<a href="/contact" class="mb-5 mr-5 hover:text-gray-800 lg:mb-0 dark:hover:text-gray-400">
 					<svg class="h-11" viewBox="0 0 208 42" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path
 							d="M42.7714 20.729C42.7714 31.9343 33.6867 41.019 22.4814 41.019C11.2747 41.019 2.19141 31.9343 2.19141 20.729C2.19141 9.52228 11.2754 0.438965 22.4814 0.438965C33.6867 0.438965 42.7714 9.52297 42.7714 20.729Z"
@@ -132,7 +132,7 @@
 						/>
 					</svg>
 				</a>
-				<a href="./" class="mb-5 mr-5 hover:text-gray-800 lg:mb-0 dark:hover:text-gray-400">
+				<a href="/contact" class="mb-5 mr-5 hover:text-gray-800 lg:mb-0 dark:hover:text-gray-400">
 					<svg class="h-11" viewBox="0 0 120 41" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path
 							d="M20.058 40.5994C31.0322 40.5994 39.9286 31.7031 39.9286 20.7289C39.9286 9.75473 31.0322 0.858398 20.058 0.858398C9.08385 0.858398 0.1875 9.75473 0.1875 20.7289C0.1875 31.7031 9.08385 40.5994 20.058 40.5994Z"

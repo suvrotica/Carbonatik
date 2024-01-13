@@ -30,7 +30,7 @@
 					<li>Bi-monthly market updates</li>
 				</ul>
 				<a
-					href="./"
+					href="/contact"
 					class="rounded-lg bg-primary-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 dark:text-white dark:focus:ring-primary-900"
 					>Get started</a
 				>
@@ -56,7 +56,7 @@
 					<li>Personalized investment strategies</li>
 				</ul>
 				<a
-					href="./"
+					href="/contact"
 					class="rounded-lg bg-primary-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 dark:text-white dark:focus:ring-primary-900"
 					>Get started</a
 				>
@@ -82,7 +82,7 @@
 					<li>Access to private investor events and networks</li>
 				</ul>
 				<a
-					href="./"
+					href="/contact"
 					class="rounded-lg bg-primary-600 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-primary-700 focus:ring-4 focus:ring-primary-200 dark:text-white dark:focus:ring-primary-900"
 					>Get started</a
 				>

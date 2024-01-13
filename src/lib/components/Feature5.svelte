@@ -14,7 +14,7 @@
 				promise an unforgettable experience.
 			</p>
 			<a
-				href="./"
+				href="/contact"
 				class="mr-3 inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-3 text-center text-base font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
 			>
 				View Listings
@@ -31,7 +31,7 @@
 				>
 			</a>
 			<a
-				href="./"
+				href="/contact"
 				class="inline-flex items-center justify-center rounded-lg border border-gray-300 px-5 py-3 text-center text-base font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-800"
 			>
 				Contact Us
