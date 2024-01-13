@@ -3,7 +3,7 @@
 >
 	<div class="mx-auto max-w-screen-xl px-4 py-8 text-center sm:mt-20 lg:px-12 lg:py-16">
 		<!-- svelte-ignore a11y-no-interactive-element-to-noninteractive-role -->
-		<a
+		<!-- <a
 			href="/contact"
 			class="mb-7 inline-flex items-center justify-between rounded-full bg-gray-100 px-1 py-1 pr-4 text-sm text-gray-700 hover:bg-gray-200 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700"
 			role="alert"
@@ -24,7 +24,7 @@
 					clip-rule="evenodd"
 				></path></svg
 			>
-		</a>
+		</a> -->
 		<h1
 			class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
 		>
