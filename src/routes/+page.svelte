@@ -19,11 +19,13 @@
 	import Testimonials from '$lib/components/Testimonials.svelte';
 	import PanAcross from '$lib/components/PanAcross.svelte';
 	import Contact from '$lib/components/Contact.svelte';
+	import Intro from '$lib/components/Intro.svelte';
 	let colorOrder = 1;
 </script>
 
 <Navigation />
-<Hero />
+<Intro />
+<!-- <Hero /> -->
 <CTA3 />
 <Feature5 />
 <PanAcross />
