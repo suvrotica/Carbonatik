@@ -25,17 +25,19 @@
 <Hero />
 <CTA3 />
 <Feature5 />
-
 <PanAcross />
-<Feature1 />
-<CTA1 />
-<Pricing />
-<Feature2 />
+<!-- <Gallery1 /> -->
 <Stat />
-<Gallery1 />
-<CTA2 />
-<Fearure3 />
-<Content1 />
 <Feature4 />
-<Testimonials />
+<Fearure3 />
+<!-- <Content1 /> -->
+<!-- <CTA2 /> -->
+<!-- <Pricing /> -->
+<!-- <Feature2 /> -->
+<!-- <CTA1 /> -->
+<!-- <Feature1 /> -->
+<!-- 
+
+<Testimonials /> 
+-->
 <Footer />

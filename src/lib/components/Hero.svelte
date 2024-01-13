@@ -1,5 +1,5 @@
 <section
-	class=" light-bg dark:dark-bg bg-neutral-300 bg-contain bg-repeat pt-16 bg-blend-soft-light sm:pt-24 md:pt-28 lg:pt-32 dark:bg-neutral-800 dark:bg-blend-overlay"
+	class=" bg-neutral-300 bg-contain bg-repeat pt-16 bg-blend-soft-light light-bg sm:pt-24 md:pt-28 lg:pt-32 dark:bg-neutral-800 dark:bg-blend-overlay dark:dark-bg"
 >
 	<div class="mx-auto max-w-screen-xl px-4 py-8 text-center sm:mt-20 lg:px-12 lg:py-16">
 		<!-- svelte-ignore a11y-no-interactive-element-to-noninteractive-role -->
@@ -11,7 +11,7 @@
 			<span class="mr-3 rounded-full bg-primary-600 px-4 py-1.5 text-xs text-white"
 				>Success Story</span
 			>
-			<span class="text-sm font-medium">Hear how we helped families find their perfect home!</span>
+			<span class="text-sm font-medium">Asset Management</span>
 
 			<svg
 				class="ml-2 h-5 w-5"
@@ -28,18 +28,15 @@
 		<h1
 			class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white"
 		>
-			Excellence Meets Reliability in Real Estate
+			Welcome to BFJK Corp.
 		</h1>
 
 		<p
 			class="mb-8 text-lg font-normal text-gray-500 sm:px-16 lg:text-xl xl:px-48 dark:text-gray-400"
 		>
-			At BFJK, our commitment lies in transforming real estate landscapes with innovative solutions
-			and dedicated service. We strive to create sustainable value in properties, focusing on
-			community building and long-term client satisfaction. Our approach combines in-depth market
-			insight with the desire to foster vibrant, thriving neighborhoods.
+			Excellence in Luxury Real Estate Asset Management
 		</p>
-
+		<!-- 
 		<div
 			class="mb-8 flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-x-4 sm:space-y-0 lg:mb-16"
 		>
@@ -153,6 +150,6 @@
 					</svg>
 				</a>
 			</div>
-		</div>
+		</div> -->
 	</div>
 </section>

@@ -1,5 +1,5 @@
 <section
-	class=" light-bg dark:dark-bg2 bg-neutral-300 bg-contain bg-repeat pt-16 bg-blend-soft-light sm:pt-24 md:pt-28 lg:pt-32 dark:bg-neutral-700 dark:bg-blend-overlay"
+	class=" bg-neutral-300 bg-contain bg-repeat pt-16 bg-blend-soft-light light-bg sm:pt-24 md:pt-28 lg:pt-32 dark:bg-neutral-700 dark:bg-blend-overlay dark:dark-bg2"
 >
 	<div
 		class="mx-auto max-w-screen-xl items-center gap-8 px-4 py-8 sm:py-16 md:grid md:grid-cols-2 lg:px-6 xl:gap-16"
@@ -25,7 +25,7 @@
 				the gold standard in luxury property management, where each asset is a testament to our
 				commitment to excellence.
 			</p>
-			<a
+			<!-- <a
 				href="/contact"
 				class="inline-flex items-center rounded-lg bg-primary-700 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
 			>
@@ -41,7 +41,7 @@
 						clip-rule="evenodd"
 					></path></svg
 				>
-			</a>
+			</a> -->
 		</div>
 	</div>
 </section>

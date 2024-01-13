@@ -4,8 +4,13 @@
 			<h1
 				class="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white"
 			>
-				Luxury Hotel Chains
+				Portfolio
 			</h1>
+			<h2
+				class="mb-4 max-w-2xl text-3xl font-extrabold leading-none tracking-tight md:text-4xl xl:text-5xl dark:text-neutral-400"
+			>
+				Luxury Hotel Chains
+			</h2>
 			<p
 				class="mb-6 max-w-2xl font-light text-gray-500 md:text-lg lg:mb-8 lg:text-xl dark:text-gray-400"
 			>
@@ -13,7 +18,7 @@
 				elegance. From the vibrant streets of New York to the serene beaches of Bali, our hotels
 				promise an unforgettable experience.
 			</p>
-			<a
+			<!-- <a
 				href="/contact"
 				class="mr-3 inline-flex items-center justify-center rounded-lg bg-primary-700 px-5 py-3 text-center text-base font-medium text-white hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
 			>
@@ -35,7 +40,7 @@
 				class="inline-flex items-center justify-center rounded-lg border border-gray-300 px-5 py-3 text-center text-base font-medium text-gray-900 hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-800"
 			>
 				Contact Us
-			</a>
+			</a> -->
 		</div>
 		<div class="hidden lg:col-span-5 lg:mt-0 lg:flex">
 			<img

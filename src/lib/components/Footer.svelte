@@ -2,7 +2,7 @@
 	import Logo from './Logo.svelte';
 </script>
 
-<footer class="bg-white p-4 sm:p-6 dark:bg-neutral-900">
+<footer class="mt-16 bg-white p-4 sm:p-6 dark:bg-neutral-900">
 	<div class="mx-auto max-w-screen-xl">
 		<div class="md:flex md:justify-between">
 			<div class="mb-6 md:mb-0">
@@ -55,7 +55,7 @@
 		<hr class="my-6 border-neutral-200 sm:mx-auto lg:my-8 dark:border-neutral-700" />
 		<div class="sm:flex sm:items-center sm:justify-between">
 			<span class="text-sm text-neutral-500 sm:text-center dark:text-neutral-400"
-				>© 2023 <a href="/contact" class="hover:underline">BFJK</a>. All Rights Reserved.
+				>© 2024 <a href="/contact" class="hover:underline">BFJK</a>. All Rights Reserved.
 			</span>
 			<div class="mt-4 flex space-x-6 sm:mt-0 sm:justify-center">
 				<!-- Insert social media icons and links here -->

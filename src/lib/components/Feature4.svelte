@@ -1,170 +1,75 @@
 <section class="bg-white dark:bg-neutral-900">
 	<div class="mx-auto max-w-screen-xl px-4 py-8 sm:py-16 lg:px-6">
-		<!-- Row -->
+		<!-- Introduction Row -->
 		<div class="flex flex-wrap items-center">
 			<div class="w-full lg:w-1/2">
 				<h2 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">
-					Enhancing Real Estate Experiences
+					Pioneering in Luxury Real Estate Asset Management
 				</h2>
 				<p class="mb-4 text-gray-500 sm:text-xl dark:text-gray-400">
-					At BFJK, we offer unparalleled real estate services, ensuring every client finds their
-					ideal property. Our approach combines innovation with a deep understanding of market
-					dynamics.
+					At BFJK Corp, we specialize in managing and enhancing the value of luxury real estate
+					assets. Our approach combines meticulous market analysis with innovative strategies to
+					ensure each property under our management is not just maintained, but its value is
+					amplified.
 				</p>
-				<!-- List -->
+				<!-- Key Highlights -->
 				<ul role="list" class="space-y-4">
 					<li class="flex items-center">
-						<!-- Icon -->
+						<!-- Icon for Market Insight -->
 						<svg
 							class="mr-2 h-6 w-6 text-primary-600 dark:text-primary-500"
-							fill="currentColor"
-							viewBox="0 0 20 20"
 							xmlns="http://www.w3.org/2000/svg"
-							><path
-								fill-rule="evenodd"
-								d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-								clip-rule="evenodd"
-							></path></svg
+							viewBox="0 0 20 20"
+							fill="currentColor"
 						>
-						<span class="text-gray-500">Comprehensive Market Analysis</span>
+							<path d="M13 7H7v6h6V7z" />
+							<path
+								fill-rule="evenodd"
+								d="M4 2a2 2 0 00-2 2v12a2 2 0 002 2h12a2 2 0 002-2V4a2 2 0 00-2-2H4zm12 14H4V4h12v12z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+						<span class="text-gray-500">In-depth Market Insight and Analysis</span>
 					</li>
 					<li class="flex items-center">
-						<!-- Icon -->
+						<!-- Icon for Asset Enhancement -->
 						<svg
 							class="mr-2 h-6 w-6 text-primary-600 dark:text-primary-500"
-							fill="currentColor"
-							viewBox="0 0 20 20"
 							xmlns="http://www.w3.org/2000/svg"
-							><path
-								fill-rule="evenodd"
-								d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-								clip-rule="evenodd"
-							></path></svg
+							viewBox="0 0 20 20"
+							fill="currentColor"
 						>
-						<span class="text-gray-500">Personalized Property Matching</span>
+							<path
+								fill-rule="evenodd"
+								d="M10 18a8 8 0 100-16 8 8 0 000 16zm-2-9h4v2H8v-2zm0 4h4v2H8v-2z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+						<span class="text-gray-500">Strategic Asset Enhancement</span>
 					</li>
 					<li class="flex items-center">
-						<!-- Icon -->
+						<!-- Icon for Sustainable Practices -->
 						<svg
 							class="mr-2 h-6 w-6 text-primary-600 dark:text-primary-500"
-							fill="currentColor"
-							viewBox="0 0 20 20"
 							xmlns="http://www.w3.org/2000/svg"
-							><path
-								fill-rule="evenodd"
-								d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-								clip-rule="evenodd"
-							></path></svg
-						>
-						<span class="text-gray-500">Expert Negotiation and Closing Strategies</span>
-					</li>
-					<li class="flex items-center">
-						<!-- Icon -->
-						<svg
-							class="mr-2 h-6 w-6 text-primary-600 dark:text-primary-500"
-							fill="currentColor"
 							viewBox="0 0 20 20"
-							xmlns="http://www.w3.org/2000/svg"
-							><path
-								fill-rule="evenodd"
-								d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-								clip-rule="evenodd"
-							></path></svg
+							fill="currentColor"
 						>
-						<span class="text-gray-500">State-of-the-Art Virtual Tours</span>
+							<path
+								fill-rule="evenodd"
+								d="M10 18a8 8 0 100-16 8 8 0 000 16zm2-11a3 3 0 11-6 0 3 3 0 016 0z"
+								clip-rule="evenodd"
+							/>
+						</svg>
+						<span class="text-gray-500">Commitment to Sustainability and Innovation</span>
 					</li>
 				</ul>
 			</div>
 			<img
 				class="mt-8 h-auto w-full lg:w-1/2"
 				src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/h4-YGz3jJqYZ9IqQDz59TqJWMzG9pcy2c.png"
-				alt="BFJK Real Estate"
+				alt="BFJK Real Estate Asset Management"
 			/>
-		</div>
-		<!-- Another Row -->
-		<div class="mt-8 flex flex-wrap items-center">
-			<img
-				class="h-auto w-full lg:w-1/2"
-				src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/d1-yDrCBNWGnz2pLH2qqrJDv55XqyAO6f.png"
-				alt="BFJK Property"
-			/>
-			<div class="w-full lg:w-1/2">
-				<h2 class="mb-4 ml-2 mt-8 text-4xl font-extrabold text-gray-900 dark:text-white">
-					Investment Opportunities
-				</h2>
-				<p class="mb-4 ml-2 text-gray-500 sm:text-xl dark:text-gray-400">
-					Our strategic approach to asset management has consistently delivered outstanding results.
-					Explore investment opportunities with BFJK Corp. and be a part of our journey to reshape
-					the landscape of luxury real estate. Our investments go beyond properties; we invest in
-					communities and sustainable development, aiming to create long-term value for our clients
-					and society. Our approach is about creating a legacy – properties that stand the test of
-					time, developments that bring about positive change, and investments that yield
-					sustainable returns.
-				</p>
-				<!-- Bullet-like Points -->
-				<ul role="list" class="ml-2 space-y-4">
-					<li class="flex items-center">
-						<!-- Icon -->
-						<svg
-							class="mr-2 h-6 w-6 text-primary-600 dark:text-primary-500"
-							fill="currentColor"
-							viewBox="0 0 20 20"
-							xmlns="http://www.w3.org/2000/svg"
-							><path
-								fill-rule="evenodd"
-								d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-								clip-rule="evenodd"
-							></path></svg
-						>
-						<span class="text-gray-500">Eco-Friendly and Sustainable Practices</span>
-					</li>
-					<li class="flex items-center">
-						<!-- Icon -->
-						<svg
-							class="mr-2 h-6 w-6 text-primary-600 dark:text-primary-500"
-							fill="currentColor"
-							viewBox="0 0 20 20"
-							xmlns="http://www.w3.org/2000/svg"
-							><path
-								fill-rule="evenodd"
-								d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-								clip-rule="evenodd"
-							></path></svg
-						>
-						<span class="text-gray-500">Community Engagement and Support</span>
-					</li>
-					<li class="flex items-center">
-						<!-- Icon -->
-						<svg
-							class="mr-2 h-6 w-6 text-primary-600 dark:text-primary-500"
-							fill="currentColor"
-							viewBox="0 0 20 20"
-							xmlns="http://www.w3.org/2000/svg"
-							><path
-								fill-rule="evenodd"
-								d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-								clip-rule="evenodd"
-							></path></svg
-						>
-						<span class="text-gray-500">Innovative and Efficient Property Solutions</span>
-					</li>
-					<li class="flex items-center">
-						<!-- Icon -->
-						<svg
-							class="mr-2 h-6 w-6 text-primary-600 dark:text-primary-500"
-							fill="currentColor"
-							viewBox="0 0 20 20"
-							xmlns="http://www.w3.org/2000/svg"
-							><path
-								fill-rule="evenodd"
-								d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-								clip-rule="evenodd"
-							></path></svg
-						>
-						<span class="text-gray-500">Long-Term Value Creation</span>
-					</li>
-				</ul>
-			</div>
 		</div>
 	</div>
 </section>

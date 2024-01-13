@@ -1,4 +1,4 @@
-<section class="bg-white dark:bg-neutral-900">
+<section class="bg-white dark:bg-neutral-950">
 	<div class="mx-auto max-w-screen-xl px-4 py-8 text-center lg:px-6 lg:py-16">
 		<dl class="mx-auto grid max-w-screen-md gap-8 text-neutral-900 sm:grid-cols-3 dark:text-white">
 			<div class="flex flex-col items-center justify-center">
