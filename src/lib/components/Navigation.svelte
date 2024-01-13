@@ -17,7 +17,7 @@
 	class="fixed start-0 top-0 z-20 w-full border-b bg-white px-2 py-2.5 sm:px-4 dark:bg-neutral-900"
 >
 	<Logo />
-	<NavHamburger />
+	<!-- <NavHamburger /> -->
 	<!-- <NavUl>
 		<NavLi href="/" active={true}>Home</NavLi>
 
