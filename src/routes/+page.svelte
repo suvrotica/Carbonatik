@@ -6,6 +6,7 @@
 	import Feature2 from '$lib/components/Feature2.svelte';
 	import Fearure3 from '$lib/components/Feature3.svelte';
 	import Feature4 from '$lib/components/Feature4.svelte';
+	import Feature5 from '$lib/components/Feature5.svelte';
 	import CTA1 from '$lib/components/CTA1.svelte';
 	import CTA2 from '$lib/components/CTA2.svelte';
 	import CTA3 from '$lib/components/CTA3.svelte';
@@ -23,6 +24,8 @@
 <Navigation />
 <Hero />
 <CTA3 />
+<Feature5 />
+
 <PanAcross />
 <Feature1 />
 <CTA1 />
