@@ -1,5 +1,5 @@
 <section class="bg-white dark:bg-neutral-950">
-	<div class="mx-auto max-w-screen-xl px-4 py-8 lg:px-6">
+	<div class="mx-auto max-w-screen-xl px-4 lg:px-6">
 		<div class=" max-w-screen-md">
 			<h2 class=" text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
 				Contact Us
