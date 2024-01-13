@@ -1,7 +1,7 @@
 <section class="bg-white dark:bg-neutral-950">
 	<div class="mx-auto max-w-screen-xl px-4 py-8 lg:px-6">
 		<div class=" max-w-screen-md">
-			<h2 class="mb-4 text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
+			<h2 class=" text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white">
 				Contact Us
 			</h2>
 			<p class="text-gray-500 sm:text-xl dark:text-gray-400">
