@@ -18,6 +18,7 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import Testimonials from '$lib/components/Testimonials.svelte';
 	import PanAcross from '$lib/components/PanAcross.svelte';
+	import Contact from '$lib/components/Contact.svelte';
 	let colorOrder = 1;
 </script>
 
@@ -27,9 +28,9 @@
 <Feature5 />
 <PanAcross />
 <!-- <Gallery1 /> -->
+<Fearure3 />
 <Stat />
 <Feature4 />
-<Fearure3 />
 <!-- <Content1 /> -->
 <!-- <CTA2 /> -->
 <!-- <Pricing /> -->
@@ -40,4 +41,5 @@
 
 <Testimonials /> 
 -->
+<Contact />
 <Footer />

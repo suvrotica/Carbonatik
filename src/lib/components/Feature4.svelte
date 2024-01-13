@@ -4,13 +4,12 @@
 		<div class="flex flex-wrap items-center">
 			<div class="w-full lg:w-1/2">
 				<h2 class="mb-4 text-4xl font-extrabold text-gray-900 dark:text-white">
-					Pioneering in Luxury Real Estate Asset Management
+					Investment Opportunities
 				</h2>
 				<p class="mb-4 text-gray-500 sm:text-xl dark:text-gray-400">
-					At BFJK Corp, we specialize in managing and enhancing the value of luxury real estate
-					assets. Our approach combines meticulous market analysis with innovative strategies to
-					ensure each property under our management is not just maintained, but its value is
-					amplified.
+					Our strategic approach to asset management has consistently delivered outstanding results.
+					Explore investment opportunities with BFJK Corp. and be a part of our journey to reshape
+					the landscape of luxury real estate.
 				</p>
 				<!-- Key Highlights -->
 				<ul role="list" class="space-y-4">

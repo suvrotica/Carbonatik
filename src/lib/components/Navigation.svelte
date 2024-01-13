@@ -18,10 +18,10 @@
 >
 	<Logo />
 	<NavHamburger />
-	<NavUl>
+	<!-- <NavUl>
 		<NavLi href="/" active={true}>Home</NavLi>
 
 		<NavLi href="/contact">Contact</NavLi>
-	</NavUl>
+	</NavUl> -->
 	<ToggleDark />
 </Navbar>
