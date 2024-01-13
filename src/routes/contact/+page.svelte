@@ -3,7 +3,7 @@
 		<h2
 			class="mb-4 text-center text-4xl font-extrabold tracking-tight text-neutral-900 dark:text-white"
 		>
-			Contact Us
+			Contact BFJK
 		</h2>
 		<p
 			class="mb-8 text-center font-light text-neutral-500 sm:text-xl lg:mb-16 dark:text-neutral-400"
@@ -21,8 +21,8 @@
 				<input
 					type="email"
 					id="email"
-					class="block w-full rounded-lg border border-neutral-300 bg-neutral-50 p-2.5 text-sm text-neutral-900 shadow-sm focus:border-neutral-500 focus:ring-neutral-500 dark:border-neutral-600 dark:bg-neutral-700 dark:text-white dark:placeholder-neutral-400 dark:shadow-sm-light dark:focus:border-neutral-500 dark:focus:ring-neutral-500"
-					placeholder="name@flowbite.com"
+					class="dark:shadow-sm-light block w-full rounded-lg border border-neutral-300 bg-neutral-50 p-2.5 text-sm text-neutral-900 shadow-sm focus:border-neutral-500 focus:ring-neutral-500 dark:border-neutral-600 dark:bg-neutral-700 dark:text-white dark:placeholder-neutral-400 dark:focus:border-neutral-500 dark:focus:ring-neutral-500"
+					placeholder="someone@company.com"
 					required
 				/>
 			</div>
@@ -35,7 +35,7 @@
 				<input
 					type="text"
 					id="subject"
-					class="block w-full rounded-lg border border-neutral-300 bg-neutral-50 p-3 text-sm text-neutral-900 shadow-sm focus:border-neutral-500 focus:ring-neutral-500 dark:border-neutral-600 dark:bg-neutral-700 dark:text-white dark:placeholder-neutral-400 dark:shadow-sm-light dark:focus:border-neutral-500 dark:focus:ring-neutral-500"
+					class="dark:shadow-sm-light block w-full rounded-lg border border-neutral-300 bg-neutral-50 p-3 text-sm text-neutral-900 shadow-sm focus:border-neutral-500 focus:ring-neutral-500 dark:border-neutral-600 dark:bg-neutral-700 dark:text-white dark:placeholder-neutral-400 dark:focus:border-neutral-500 dark:focus:ring-neutral-500"
 					placeholder="Let us know how we can help you"
 					required
 				/>
