@@ -5,7 +5,7 @@
 		'bg-neutral-200 bg-contain bg-repeat bg-blend-soft-light light-bg dark:bg-neutral-950 dark:bg-blend-overlay dark:dark-bg3';
 </script>
 
-<GoldLine></GoldLine>
+<GoldLine />
 
 <section id="ContactUs" class={sectionStyle}>
 	<h2
