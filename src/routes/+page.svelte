@@ -25,14 +25,16 @@
 	let colorOrder = 1;
 </script>
 
+<div id="ExecutiveTeam">ExecutiveTeam</div>
+<div id="AboutUs">AboutUs</div>
 <Navigation />
 <Head />
+<Intro />
+<Hero />
+<CTA3 />
+<Feature5 />
+<PanAcross />
 <Portfolio />
-<!-- <Intro /> -->
-<!-- <Hero /> -->
-<!-- <CTA3 /> -->
-<!-- <Feature5 /> -->
-<!-- <PanAcross /> -->
 <!-- <Gallery1 /> -->
 <!-- <Fearure3 /> -->
 <!-- <Stat /> -->
@@ -47,5 +49,5 @@
 
 <Testimonials /> 
 -->
-<!-- <Contact /> -->
+<Contact />
 <Footer />

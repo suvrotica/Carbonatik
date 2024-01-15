@@ -2,6 +2,7 @@
 </script>
 
 <section
+	id="Portfolio"
 	class="bg-neutral-300 bg-contain bg-repeat pt-16 text-neutral-950 bg-blend-soft-light light-bg sm:pt-24 md:pt-28 lg:pt-32 dark:bg-neutral-700 dark:text-neutral-100 dark:bg-blend-overlay dark:dark-bg2"
 >
 	<p class="classico-normal text-lg leading-relaxed">This is Classico normal text.</p>
