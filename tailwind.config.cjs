@@ -44,6 +44,10 @@ const config = {
 					backgroundImage:
 						"url('https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/4110b4a3fedefd18163a515c994d2df4-J8QCt7X1ENxjwTP97C77nvHohyGUjR.jpg')"
 				},
+				'.dark-bg4': {
+					backgroundImage:
+						"url('https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/6f0f489e48ce87218c50e2a7dceea056-6Rfv694ofHmIsEyFDD2D342TJmrSzW.jpg')"
+				},
 				'.light-bg': {
 					backgroundImage:
 						"url('https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/3b6edf4e4afbccc06fd500fc261f6680-25ZGagzpQQSwP7GliJHCpv53oc2PYH.jpg')"
