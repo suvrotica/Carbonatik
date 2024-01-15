@@ -20,19 +20,23 @@
 	import PanAcross from '$lib/components/PanAcross.svelte';
 	import Contact from '$lib/components/Contact.svelte';
 	import Intro from '$lib/components/Intro.svelte';
+	import Portfolio from '$lib/components/Portfolio.svelte';
+	import Head from '$lib/components/Head.svelte';
 	let colorOrder = 1;
 </script>
 
 <Navigation />
-<Intro />
+<Head />
+<Portfolio />
+<!-- <Intro /> -->
 <!-- <Hero /> -->
-<CTA3 />
-<Feature5 />
-<PanAcross />
+<!-- <CTA3 /> -->
+<!-- <Feature5 /> -->
+<!-- <PanAcross /> -->
 <!-- <Gallery1 /> -->
-<Fearure3 />
-<Stat />
-<Feature4 />
+<!-- <Fearure3 /> -->
+<!-- <Stat /> -->
+<!-- <Feature4 /> -->
 <!-- <Content1 /> -->
 <!-- <CTA2 /> -->
 <!-- <Pricing /> -->
@@ -43,5 +47,5 @@
 
 <Testimonials /> 
 -->
-<Contact />
+<!-- <Contact /> -->
 <Footer />

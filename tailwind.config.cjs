@@ -11,10 +11,6 @@ const config = {
 
 	theme: {
 		extend: {
-			backgroundImage: (theme) => ({
-				'dark-mode': "url('/path/to/dark/image.jpg')",
-				'light-mode': "url('/path/to/light/image.jpg')"
-			}),
 			colors: {
 				// neutral
 				primary: {

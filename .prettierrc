@@ -10,6 +10,10 @@
 			"options": {
 				"parser": "svelte"
 			}
+		},
+		{
+			"files": ["*.css", "*.pcss"],
+			"options": {}
 		}
 	]
 }
