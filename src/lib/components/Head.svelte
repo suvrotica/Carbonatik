@@ -63,28 +63,28 @@
 				</li>
 				<li>
 					<a
-						href="#AboutUs"
+						href="/#AboutUs"
 						class="lara-light block rounded py-1 pl-3 pr-4 text-neutral-600 hover:bg-neutral-200 md:hover:bg-transparent md:hover:text-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-600 dark:hover:text-neutral-300"
 						>About Us</a
 					>
 				</li>
 				<li>
 					<a
-						href="#ExecutiveTeam"
+						href="/#ExecutiveTeam"
 						class="lara-light block rounded py-1 pl-3 pr-4 text-neutral-600 hover:bg-neutral-200 md:hover:bg-transparent md:hover:text-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-600 dark:hover:text-neutral-300"
 						>Executive Team</a
 					>
 				</li>
 				<li>
 					<a
-						href="#Portfolio"
+						href="/#Portfolio"
 						class="lara-light block rounded py-1 pl-3 pr-4 text-neutral-600 hover:bg-neutral-200 md:hover:bg-transparent md:hover:text-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-600 dark:hover:text-neutral-300"
 						>Portfolio</a
 					>
 				</li>
 				<li>
 					<a
-						href="#ContactUs"
+						href="/#ContactUs"
 						class="lara-light block rounded py-1 pl-3 pr-4 text-neutral-600 hover:bg-neutral-200 md:hover:bg-transparent md:hover:text-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-600 dark:hover:text-neutral-300"
 						>Contact Us</a
 					>
