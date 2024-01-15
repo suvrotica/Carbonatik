@@ -11,6 +11,23 @@
 	} from 'flowbite-svelte';
 	import ToggleDark from './ToggleDark.svelte';
 	import Logo from './Logo.svelte';
+	import { onMount } from 'svelte';
+	import { writable } from 'svelte/store';
+
+	let isNavOpen = writable(false); // State to toggle the nav menu
+
+	function toggleNav() {
+		isNavOpen.update((n) => !n); // Toggle the navigation menu
+	}
+
+	// Close the nav menu when the window is resized to a wider screen
+	onMount(() => {
+		window.addEventListener('resize', () => {
+			if (window.innerWidth >= 768) {
+				isNavOpen.set(false);
+			}
+		});
+	});
 </script>
 
 <nav class="fixed left-0 top-0 z-20 w-full bg-neutral-100 dark:bg-neutral-800">
@@ -22,11 +39,12 @@
 			<ToggleDark />
 
 			<button
+				on:click={toggleNav}
 				data-collapse-toggle="navbar-sticky"
 				type="button"
 				class="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-neutral-500 hover:bg-neutral-200 focus:outline-none focus:ring-2 focus:ring-neutral-300 md:hidden dark:text-neutral-400 dark:hover:bg-neutral-600 dark:focus:ring-neutral-500"
 				aria-controls="navbar-sticky"
-				aria-expanded="false"
+				aria-expanded={$isNavOpen}
 			>
 				<span class="sr-only">Open main menu</span>
 				<svg
@@ -47,7 +65,8 @@
 			</button>
 		</div>
 		<div
-			class="hidden w-full items-center justify-between md:order-1 md:flex md:w-auto"
+			class:hidden={!$isNavOpen}
+			class="w-full items-center justify-between md:order-1 md:flex md:w-auto"
 			id="navbar-sticky"
 		>
 			<ul
