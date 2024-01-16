@@ -2,8 +2,6 @@
 	import GoldLine from '$lib/components/GoldLine.svelte';
 </script>
 
-<GoldLine />
-
 <section id="ContactUs">
 	<h2>Contact Us</h2>
 
@@ -12,3 +10,5 @@
 		investment opportunities, or to schedule a consultation.
 	</p>
 </section>
+
+<GoldLine />

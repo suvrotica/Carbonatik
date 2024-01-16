@@ -11,6 +11,14 @@ const config = {
 
 	theme: {
 		extend: {
+			fontFamily: {
+				lato: ['Lato', 'sans-serif']
+			},
+			fontWeight: {
+				thin: '100',
+				light: '300'
+				// ... other weights if needed
+			},
 			colors: {
 				// neutral
 				primary: {

@@ -22,12 +22,14 @@
 	import Intro from '$lib/components/Intro.svelte';
 	import Portfolio from '$lib/components/Portfolio.svelte';
 	import Head from '$lib/components/Head.svelte';
+	import First from '$lib/components/FirstSection.svelte';
 	let colorOrder = 1;
 </script>
 
 <div id="ExecutiveTeam">ExecutiveTeam</div>
 <div id="AboutUs">AboutUs</div>
 <Navigation />
+<First />
 <Head />
 <Intro />
 <Hero />
@@ -40,9 +42,9 @@
 <!-- <Stat /> -->
 <!-- <Feature4 /> -->
 <!-- <Content1 /> -->
-<!-- <CTA2 /> -->
+<CTA2 />
 <!-- <Pricing /> -->
-<!-- <Feature2 /> -->
+<Feature2 />
 <!-- <CTA1 /> -->
 <!-- <Feature1 /> -->
 <!-- 

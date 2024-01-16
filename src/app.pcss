@@ -126,14 +126,22 @@
 	font-style: italic;
 }
 
-/* Custom Font Styles */
 h2 {
 	@apply classico-bold text-6xl tracking-tight text-neutral-900 dark:text-neutral-100;
 }
 
 p {
-	@apply lara-light text-lg text-neutral-900 dark:text-neutral-100;
+	@apply lara-light dark:font-lato text-lg text-neutral-900  dark:font-light dark:text-neutral-100;
 }
 section {
 	@apply m-4 mt-10 bg-neutral-100  p-4  dark:bg-neutral-900;
+}
+.span_underlined {
+	@apply lara-light-italic text-2xl underline decoration-neutral-400 decoration-8 underline-offset-4;
+}
+.gold {
+	@apply text-[#D4AF47];
+}
+img {
+	@apply w-full rounded-lg;
 }
