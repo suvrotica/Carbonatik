@@ -2,6 +2,7 @@
 	import ToggleDark from './ToggleDark.svelte';
 	import Logo from './Logo.svelte';
 	import { onMount } from 'svelte';
+	import { page } from '$app/stores';
 	import { writable } from 'svelte/store';
 	import GoldLine from './GoldLine.svelte';
 
@@ -61,9 +62,10 @@
 			class="m-0 flex flex-col rounded-lg border border-neutral-200 p-0 font-medium md:flex-row md:space-x-8 md:border-0 dark:border-neutral-600"
 		>
 			<li>
-				<a href="/" aria-current="page">Home</a>
+				<a href="/home" class:active-link={$page.url.pathname === '/home'}>Home</a>
 			</li>
-			<li>
+
+			<!-- <li>
 				<a href="/">About</a>
 			</li>
 			<li>
@@ -71,11 +73,18 @@
 			</li>
 			<li>
 				<a href="/">Portfolio</a>
-			</li>
+			</li> -->
 			<li>
-				<a href="/#ContactUs">Contact</a>
+				<a href="/contact" class:active-link={$page.url.pathname === '/contact'}>Contact</a>
 			</li>
 		</ul>
 	</div>
 </nav>
 <GoldLine />
+
+<style>
+	.active-link {
+		/* Style for active link, e.g., underline or different color */
+		text-decoration: underline;
+	}
+</style>

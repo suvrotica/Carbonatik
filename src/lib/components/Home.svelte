@@ -1,7 +1,7 @@
 <script lang="ts">
-	import Logo from '$lib/components/Logo.svelte';
 	import Quote from '$lib/components/Quote.svelte';
 	import { imgURL1 } from '$lib/global';
+	import GoldLine from '$lib/components/GoldLine.svelte';
 </script>
 
 <section id="hero" class="hero_container">
@@ -23,6 +23,7 @@
 		<img src={imgURL1} alt="House" class="zoom-image h-full object-cover" />
 	</div>
 </section>
+<GoldLine />
 
 <style>
 	.zoom-image {

@@ -1,6 +1,5 @@
 <script>
 	import { Alert, Button, P } from 'flowbite-svelte';
-	import Navigation from '$lib/components/Navigation.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import Feature1 from '$lib/components/Feature1.svelte';
 	import Feature2 from '$lib/components/Feature2.svelte';
@@ -15,21 +14,16 @@
 	import Gallery1 from '$lib/components/Gallery1.svelte';
 	import Stat from '$lib/components/Stat.svelte';
 	import Pricing from '$lib/components/Pricing.svelte';
-	import Footer from '$lib/components/Footer.svelte';
 	import Testimonials from '$lib/components/Testimonials.svelte';
 	import PanAcross from '$lib/components/PanAcross.svelte';
-	import Contact from '$lib/components/Contact.svelte';
 	import Intro from '$lib/components/Intro.svelte';
 	import Portfolio from '$lib/components/Portfolio.svelte';
-	import First from '$lib/components/FirstSection.svelte';
 	let colorOrder = 1;
 </script>
 
 <div id="ExecutiveTeam"></div>
 <div id="AboutUs"></div>
-<Navigation />
-<First />
-<!-- <Intro /> -->
+<Intro />
 <!-- <Hero /> -->
 <!-- <CTA3 /> -->
 <!-- <Feature5 /> -->
@@ -49,5 +43,3 @@
 
 <Testimonials /> 
 -->
-<Contact />
-<Footer />
