@@ -131,7 +131,7 @@ h2 {
 }
 
 p {
-	@apply lara-light  text-lg text-neutral-900   dark:text-neutral-100;
+	@apply lara-light  text-base text-neutral-900   dark:text-neutral-100;
 }
 footer,
 section,
@@ -157,7 +157,7 @@ ul li a {
 	@apply text-[#D4AF47];
 }
 img {
-	@apply w-full rounded-lg;
+	@apply rounded-lg bg-contain;
 }
 .hero_container {
 	@apply flex flex-col-reverse gap-2 md:grid md:grid-cols-12;
@@ -167,5 +167,5 @@ img {
 }
 
 .hero_container_media {
-	@apply md:col-span-5;
+	@apply overflow-hidden md:col-span-5;
 }

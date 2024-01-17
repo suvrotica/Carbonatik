@@ -20,6 +20,12 @@
 		</p>
 	</div>
 	<div class="hero_container_media">
-		<img src={imgURL1} alt="House" class="w-full" />
+		<img src={imgURL1} alt="House" class="zoom-image h-full object-cover" />
 	</div>
 </section>
+
+<style>
+	.zoom-image {
+		transform: scale(1.1);
+	}
+</style>
