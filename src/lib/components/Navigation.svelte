@@ -72,7 +72,7 @@
 					>Home</a
 				>
 			</li>
-			<li>
+			<!-- <li>
 				<a href="/about" class:active-link={$page.url.pathname === '/about'} on:click={closeNav}
 					>About</a
 				>
@@ -88,7 +88,7 @@
 					class:active-link={$page.url.pathname === '/portfolio'}
 					on:click={closeNav}>Portfolio</a
 				>
-			</li>
+			</li> -->
 			<li>
 				<a href="/contact" class:active-link={$page.url.pathname === '/contact'} on:click={closeNav}
 					>Contact</a
