@@ -21,16 +21,14 @@
 	import Contact from '$lib/components/Contact.svelte';
 	import Intro from '$lib/components/Intro.svelte';
 	import Portfolio from '$lib/components/Portfolio.svelte';
-	import Head from '$lib/components/Head.svelte';
 	import First from '$lib/components/FirstSection.svelte';
 	let colorOrder = 1;
 </script>
 
 <div id="ExecutiveTeam"></div>
 <div id="AboutUs"></div>
-<!-- <Navigation /> -->
-<!-- <First /> -->
-<Head />
+<Navigation />
+<First />
 <!-- <Intro /> -->
 <!-- <Hero /> -->
 <!-- <CTA3 /> -->

@@ -136,7 +136,8 @@ p {
 footer,
 section,
 header,
-nav {
+nav,
+hero_container {
 	@apply m-4 bg-neutral-100 p-4  dark:bg-neutral-900;
 }
 nav {
@@ -157,4 +158,14 @@ ul li a {
 }
 img {
 	@apply w-full rounded-lg;
+}
+.hero_container {
+	@apply flex flex-col-reverse gap-2 md:grid md:grid-cols-12;
+}
+.hero_container_content {
+	@apply md:col-span-7;
+}
+
+.hero_container_media {
+	@apply md:col-span-5;
 }

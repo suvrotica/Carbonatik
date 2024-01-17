@@ -4,11 +4,8 @@
 	import { imgURL1 } from '$lib/global';
 </script>
 
-<section id="hero" class="flex flex-col lg:flex-row">
-	<div class="lg:hidden">
-		<img src={imgURL1} alt="House" class="w-full" />
-	</div>
-	<div class="text-center lg:w-1/2 lg:text-left">
+<section id="hero" class="hero_container">
+	<div class="hero_container_content">
 		<h2>
 			Asset Management
 			<span class="span_underlined">EXQUISITE</span>
@@ -22,7 +19,7 @@
 			in the real estate industry, crafting spaces that grow, inspire, and endure.
 		</p>
 	</div>
-	<div class="hidden lg:block lg:w-1/2">
+	<div class="hero_container_media">
 		<img src={imgURL1} alt="House" class="w-full" />
 	</div>
 </section>
