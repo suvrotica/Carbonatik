@@ -133,8 +133,21 @@ h2 {
 p {
 	@apply lara-light  text-lg text-neutral-900   dark:text-neutral-100;
 }
-section {
-	@apply m-4 mt-10 bg-neutral-100  p-4  dark:bg-neutral-900;
+footer,
+section,
+header,
+nav {
+	@apply m-4 bg-neutral-100 p-4  dark:bg-neutral-900;
+}
+nav {
+	@apply flex items-center justify-between p-0;
+}
+ul li a {
+	@apply lara-light block rounded bg-neutral-300
+                                py-0 pl-3 pr-4 text-neutral-950 hover:bg-neutral-400 md:bg-transparent md:text-neutral-600 md:hover:bg-transparent md:hover:text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-600 dark:hover:text-neutral-300;
+}
+.hamburger {
+	@apply inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-neutral-500 hover:bg-neutral-200 focus:outline-none focus:ring-2 focus:ring-neutral-300 md:hidden dark:text-neutral-400 dark:hover:bg-neutral-600 dark:focus:ring-neutral-500;
 }
 .span_underlined {
 	@apply lara-light-italic text-2xl underline decoration-neutral-400 decoration-8 underline-offset-4;

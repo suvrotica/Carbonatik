@@ -26,25 +26,25 @@
 	let colorOrder = 1;
 </script>
 
-<div id="ExecutiveTeam">ExecutiveTeam</div>
-<div id="AboutUs">AboutUs</div>
-<Navigation />
-<First />
+<div id="ExecutiveTeam"></div>
+<div id="AboutUs"></div>
+<!-- <Navigation /> -->
+<!-- <First /> -->
 <Head />
-<Intro />
-<Hero />
-<CTA3 />
-<Feature5 />
-<PanAcross />
-<Portfolio />
+<!-- <Intro /> -->
+<!-- <Hero /> -->
+<!-- <CTA3 /> -->
+<!-- <Feature5 /> -->
+<!-- <PanAcross /> -->
+<!-- <Portfolio /> -->
 <!-- <Gallery1 /> -->
 <!-- <Fearure3 /> -->
 <!-- <Stat /> -->
 <!-- <Feature4 /> -->
 <!-- <Content1 /> -->
-<CTA2 />
+<!-- <CTA2 /> -->
 <!-- <Pricing /> -->
-<Feature2 />
+<!-- <Feature2 /> -->
 <!-- <CTA1 /> -->
 <!-- <Feature1 /> -->
 <!-- 

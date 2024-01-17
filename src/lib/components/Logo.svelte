@@ -1,17 +1,13 @@
-<script>
-	import { NavBrand } from 'flowbite-svelte';
-</script>
-
-<NavBrand href="/">
+<a href="/">
 	<img
 		src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/IMG-20231226-WA0003-MdiT3WBgM0ojEtdRx9QMJj2Sr6Jfei.jpg"
-		class=" inline h-12 sm:h-10 dark:hidden"
+		class=" inline h-8 rounded-none dark:hidden"
 		alt="White Logo"
 	/>
 
 	<img
 		src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/IMG-20231209-WA0010-ophLQTNOdwP7maPYYp16CTgUjMcaWp.jpg"
-		class="custom-logo-opacity hidden h-12 sm:h-10 dark:inline"
+		class=" hidden h-8 rounded-none dark:inline"
 		alt="Dark Logo"
 	/>
-</NavBrand>
+</a>
