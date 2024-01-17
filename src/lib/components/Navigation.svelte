@@ -64,16 +64,16 @@
 				<a href="/" aria-current="page">Home</a>
 			</li>
 			<li>
-				<a href="/">About Us</a>
+				<a href="/">About</a>
 			</li>
 			<li>
-				<a href="/">Executive Team</a>
+				<a href="/">Team</a>
 			</li>
 			<li>
 				<a href="/">Portfolio</a>
 			</li>
 			<li>
-				<a href="/#ContactUs">Contact Us</a>
+				<a href="/#ContactUs">Contact</a>
 			</li>
 		</ul>
 	</div>
