@@ -1,7 +1,11 @@
 <script lang="ts">
 	import { imgURL1, imgURL2 } from '$lib/global';
 	import HeroTemplate from '$lib/components/HeroTemplate.svelte';
+	import PanAcross from '$lib/components/PanAcross.svelte';
+	import Vision from '$lib/components/Vision.svelte';
+
 	let quoteProps = {
+		id: 'about',
 		heading: 'Asset Management',
 		subheading: 'EXQUISITE',
 		content: `At BFJK, we redefine the essence of real estate asset management. With a keen eye for detail
@@ -13,11 +17,15 @@
 	};
 </script>
 
+<PanAcross />
 
 <HeroTemplate
+	id={quoteProps.id}
 	heading={quoteProps.heading}
 	subheading={quoteProps.subheading}
 	content={quoteProps.content}
 	image={quoteProps.image}
 	alignment="right"
+	quote_string="Building value in every square foot, BFJK transforms spaces into assets that grow and inspire."
 />
+<Vision />

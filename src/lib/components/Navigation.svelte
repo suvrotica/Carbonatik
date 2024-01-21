@@ -68,29 +68,23 @@
 			class="m-0 flex flex-col rounded-lg border border-neutral-200 p-0 font-medium md:flex-row md:space-x-8 md:border-0 dark:border-neutral-600"
 		>
 			<li>
-				<a href="/home" class:active-link={$page.url.pathname === '/home'} on:click={closeNav}
-					>Home</a
-				>
-			</li>
-			<!-- <li>
-				<a href="/about" class:active-link={$page.url.pathname === '/about'} on:click={closeNav}
+				<a href="/#about" class:active-link={$page.url.hash === '#about'} on:click={closeNav}
 					>About</a
 				>
 			</li>
+
 			<li>
-				<a href="/team" class:active-link={$page.url.pathname === '/team'} on:click={closeNav}
-					>Team</a
-				>
+				<a href="/#team" class:active-link={$page.url.hash === '#team'} on:click={closeNav}>Team</a>
 			</li>
 			<li>
 				<a
-					href="/portfolio"
-					class:active-link={$page.url.pathname === '/portfolio'}
+					href="/#portfolio"
+					class:active-link={$page.url.hash === '#portfolio'}
 					on:click={closeNav}>Portfolio</a
 				>
-			</li> -->
+			</li>
 			<li>
-				<a href="/contact" class:active-link={$page.url.pathname === '/contact'} on:click={closeNav}
+				<a href="/#contact" class:active-link={$page.url.hash === '#contact'} on:click={closeNav}
 					>Contact</a
 				>
 			</li>

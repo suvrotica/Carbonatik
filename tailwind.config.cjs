@@ -38,6 +38,7 @@ const config = {
 	},
 
 	plugins: [
+		require('@tailwindcss/typography'),
 		plugin(function ({ addUtilities }) {
 			const newUtilities = {
 				'.dark-bg': {
@@ -56,6 +57,11 @@ const config = {
 					backgroundImage:
 						"url('https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/6f0f489e48ce87218c50e2a7dceea056-6Rfv694ofHmIsEyFDD2D342TJmrSzW.jpg')"
 				},
+				'.dark-bg5': {
+					backgroundImage:
+						"url('https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/bdeb87bada790c243a2489601abf98b8-HoE2NJnx9eItgPbb4wIHsKWJu1NCgz.jpg')"
+				},
+
 				'.light-bg': {
 					backgroundImage:
 						"url('https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/3b6edf4e4afbccc06fd500fc261f6680-25ZGagzpQQSwP7GliJHCpv53oc2PYH.jpg')"
