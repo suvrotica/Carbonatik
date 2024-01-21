@@ -19,11 +19,9 @@
 	import Contact from '$lib/components/Contact.svelte';
 	import Team from '$lib/components/Team.svelte';
 	import Portfolio from '$lib/components/Portfolio.svelte';
-	import Home from '$lib/components/Home.svelte';
 	let colorOrder = 1;
 </script>
 
-<div id="ExecutiveTeam"></div>
 <About />
 <Team />
 <Portfolio />
