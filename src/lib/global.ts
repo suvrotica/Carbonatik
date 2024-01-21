@@ -1,6 +1,6 @@
-export const title = 'Your Website Title - Leading in Your Industry';
+export const title = 'BFJK Corp - Redefining Luxury Real Estate & Asset Management';
 export const description =
-	'Discover our top-quality services and products at Your Company Name. We provide industry-leading solutions in [Your Industry or Service Area]. Visit us to learn more!';
+	'Discover unparalleled luxury with BFJK Corp, the leaders in real estate asset management. Specializing in exclusive properties and high-end investments, we bring a world of sophistication and elegance to our discerning clients. Explore our portfolio of majestic hotel chains and bespoke real estate opportunities.';
 
 export const bgImageDarkURL: string =
 	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/b007d937821f91b1ad1f311f6f79fcb0-JKGcetgl0suJGyxueNJgV5Zrpnyi6a.jpg';
