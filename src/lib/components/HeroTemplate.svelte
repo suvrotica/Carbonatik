@@ -9,7 +9,7 @@
 	export let content = 'Not Provided';
 	export let image = 'Not Provided';
 	export let alignment = 'right';
-	export let id = 'Not Provided';
+	export let id = 'about';
 	export let quote_string = 'Not Provided';
 	let visible = false;
 	onMount(() => {
@@ -22,6 +22,7 @@
 	let inViewOptions = {
 		threshold: 0.5
 	};
+	console.log(id);
 </script>
 
 <a href="/#about" class="clickable-section">

@@ -15,6 +15,7 @@
 			in the real estate industry, crafting spaces that grow, inspire, and endure.`,
 		image: imgURL1
 	};
+	console.log(quoteProps.id);
 </script>
 
 <PanAcross />
