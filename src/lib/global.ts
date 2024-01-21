@@ -1,3 +1,7 @@
+export const title = 'Your Website Title - Leading in Your Industry';
+export const description =
+	'Discover our top-quality services and products at Your Company Name. We provide industry-leading solutions in [Your Industry or Service Area]. Visit us to learn more!';
+
 export const bgImageDarkURL: string =
 	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/b007d937821f91b1ad1f311f6f79fcb0-JKGcetgl0suJGyxueNJgV5Zrpnyi6a.jpg';
 export const bgImageLightURL: string =
