@@ -3,7 +3,6 @@
 	import HeroTemplate from '$lib/components/HeroTemplate.svelte';
 
 	let quoteProps = {
-		id: 'contact',
 		heading: 'Contact Us',
 		subheading: 'NOW',
 		content: `Let’s discuss your real estate aspirations. At BFJK, we understand that finding the perfect property or making a wise investment is about more than just business—it's about realizing your dreams and building your future.
@@ -21,11 +20,12 @@ At BFJK, your real estate vision is our passion. Let us help you turn your aspir
 	};
 </script>
 
-<HeroTemplate
-	id={quoteProps.id}
-	heading={quoteProps.heading}
-	subheading={quoteProps.subheading}
-	content={quoteProps.content}
-	image={quoteProps.image}
-	alignment="left"
-/>
+<section id="contact">
+	<HeroTemplate
+		heading={quoteProps.heading}
+		subheading={quoteProps.subheading}
+		content={quoteProps.content}
+		image={quoteProps.image}
+		alignment="left"
+	/>
+</section>

@@ -5,7 +5,6 @@
 	import Vision from '$lib/components/Vision.svelte';
 
 	let quoteProps = {
-		id: 'portfolio',
 		heading: 'Luxury and Elegance',
 		subheading: 'PORTFOLIO',
 		content: `At BFJK Corp, our portfolio is a reflection of our commitment to redefining luxury real estate. We meticulously manage a diverse collection of properties, each selected for its unique character and potential to offer an unparalleled experience.
@@ -22,11 +21,12 @@ We are expanding our portfolio with high-end commercial properties, including st
 	};
 </script>
 
-<HeroTemplate
-	id={quoteProps.id}
-	heading={quoteProps.heading}
-	subheading={quoteProps.subheading}
-	content={quoteProps.content}
-	image={quoteProps.image}
-	alignment="right"
-/>
+<section id="portfolio">
+	<HeroTemplate
+		heading={quoteProps.heading}
+		subheading={quoteProps.subheading}
+		content={quoteProps.content}
+		image={quoteProps.image}
+		alignment="right"
+	/>
+</section>

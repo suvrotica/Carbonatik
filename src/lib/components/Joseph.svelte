@@ -3,7 +3,6 @@
 	import HeroTemplate from '$lib/components/HeroTemplate.svelte';
 
 	let quoteProps = {
-		id: '',
 		heading: 'Joseph Kamalesh',
 		subheading: 'CO-FOUNDER',
 		content: `As a co-founder and pivotal force behind BFJK Corp, Joseph Kamalesh brings a profound depth of knowledge and experience in real estate and asset management. His journey in the industry is marked by an exceptional blend of strategic insight and pragmatic decision-making. Joseph's expertise in identifying and capitalizing on lucrative real estate opportunities has been instrumental in cementing BFJK Corp's reputation as a leader in the asset management sector.
@@ -16,7 +15,6 @@ Under Joseph's leadership, BFJK Corp has not only achieved remarkable growth but
 </script>
 
 <HeroTemplate
-	id={quoteProps.id}
 	heading={quoteProps.heading}
 	subheading={quoteProps.subheading}
 	content={quoteProps.content}

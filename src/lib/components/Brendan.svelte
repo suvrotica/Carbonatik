@@ -3,7 +3,6 @@
 	import HeroTemplate from '$lib/components/HeroTemplate.svelte';
 
 	let quoteProps = {
-		id: '',
 		heading: 'Brendan Fitzpatrick',
 		subheading: 'CO-FOUNDER',
 		content: `Brendan Fitzpatrick, co-founder of BFJK Corp, stands as a beacon of innovation and excellence in the real estate asset management industry. With a rich background in real estate finance and development, Brendan has been a key architect in building BFJK's prestigious portfolio. His expertise lies in leveraging financial acumen and market insight to drive growth and maximize asset value.
@@ -16,7 +15,6 @@ At the core of Brendan's philosophy is a commitment to building lasting relation
 </script>
 
 <HeroTemplate
-	id={quoteProps.id}
 	heading={quoteProps.heading}
 	subheading={quoteProps.subheading}
 	content={quoteProps.content}

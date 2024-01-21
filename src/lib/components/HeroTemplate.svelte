@@ -9,7 +9,6 @@
 	export let content = 'Not Provided';
 	export let image = 'Not Provided';
 	export let alignment = 'right';
-	export let id = 'about';
 	export let quote_string = 'Not Provided';
 	let visible = false;
 	onMount(() => {
@@ -22,13 +21,11 @@
 	let inViewOptions = {
 		threshold: 0.5
 	};
-	console.log(id);
 </script>
 
 <a href="/#about" class="clickable-section">
 	{#if visible}
-		<section
-			{id}
+		<article
 			class="hero_container"
 			use:inview={inViewOptions}
 			on:inview_change={() => (fadeInOptions = { ...fadeInOptions, delay: 0 })}
@@ -59,7 +56,7 @@
 					<img src={image} alt="provided background" class="zoom-image h-full object-cover" />
 				</div>
 			{/if}
-		</section>
+		</article>
 		<GoldLine />
 	{/if}
 </a>

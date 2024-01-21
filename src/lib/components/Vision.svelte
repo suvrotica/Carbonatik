@@ -2,7 +2,6 @@
 	import { imgURL2 } from '$lib/global';
 	import HeroTemplate from '$lib/components/HeroTemplate.svelte';
 	let quoteProps = {
-		id: '',
 		heading: 'Our Vision',
 		subheading: 'MAJESTIC',
 		content: `At BFJK Corp, we redefine luxury real estate. Our portfolio spans majestic hotel chains in the heart of America’s bustling cities and serene international locales. Our vision is to be the gold standard in luxury property management, where each asset is a testament to our commitment to excellence.
@@ -23,7 +22,6 @@ Partner with BFJK Corp and experience the pinnacle of luxury real estate. Let us
 </script>
 
 <HeroTemplate
-	id={quoteProps.id}
 	heading={quoteProps.heading}
 	subheading={quoteProps.subheading}
 	content={quoteProps.content}
