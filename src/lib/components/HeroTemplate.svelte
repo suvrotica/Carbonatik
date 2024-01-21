@@ -24,7 +24,7 @@
 	};
 </script>
 
-<a href="/" class="clickable-section">
+<a href="/#about" class="clickable-section">
 	{#if visible}
 		<section
 			{id}
