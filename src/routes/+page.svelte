@@ -23,8 +23,8 @@
 </script>
 
 <About />
-<Team />
 <Portfolio />
+<Team />
 <Contact />
 <!-- <Home /> -->
 <!-- <Hero /> -->
