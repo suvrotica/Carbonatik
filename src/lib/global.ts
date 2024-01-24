@@ -26,3 +26,5 @@ export const imgURL8 =
 	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/cust1-o9npx41dEPFONdpQIR21gNsVIzfTwm.png';
 export const imgURL9 =
 	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/DALL%C2%B7E%202024-01-24%2010.44.15%20-%20Visualize%20a%20sophisticated%20corporate%20setting%20for%20a%20real%20estate%20investment%20company.%20The%20scene%20depicts%20a%20modern,%20elegant%20office%20with%20a%20large%20window%20offer-vGyrEbFWohHVnHp9TPhI9DULjHNDgN.png';
+export const imgURL10 =
+	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/DALL%C2%B7E%202024-01-24%2011.25.29%20-%20Design%20a%20sophisticated%20new-age%20image%20for%20a%20global%20real%20estate%20investment%20company.%20The%20scene%20should%20feature%20a%20futuristic,%20high-tech%20office%20space%20with%20a-x5VQrmZnBAUSYqZRZDGW61KnCZ97F9.png';

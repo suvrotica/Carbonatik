@@ -3,6 +3,7 @@
 	import HeroTemplate from '$lib/components/HeroTemplate.svelte';
 	import PanAcross from '$lib/components/PanAcross.svelte';
 	import Strategy from '$lib/components/Strategy.svelte';
+	import Global from '$lib/components/Global.svelte';
 
 	let quoteProps = {
 		heading: 'Asset Management',
@@ -24,4 +25,5 @@
 		quote_string="Building value in every square foot, BFJK transforms spaces into assets that grow and inspire."
 	/>
 	<Strategy />
+	<Global />
 </section>
