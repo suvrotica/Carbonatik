@@ -22,3 +22,7 @@ export const imgURL6 =
 	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/DALL%C2%B7E%202024-01-22%2000.20.30%20-%20A%20realistic%20portrait%20of%20Joseph%20Kamalesh,%20a%20professional%20South%20Indian%20male%20in%20his%2040s,%20dressed%20in%20a%20business%20suit.%20He%20should%20appear%20confident,%20experien-DK7KogyOdBWoFFx10cFXHBJySFdctE.png';
 export const imgURL7 =
 	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/DALL%C2%B7E%202024-01-22%2000.57.16%20-%20A%20modern%20glass%20building%20designed%20like%20a%20pyramid,%20viewed%20at%20an%20angle.%20The%20building%20should%20exude%20luxury%20and%20sophistication,%20suitable%20for%20a%20high-end%20real-OQzHsNCbg2gKIp12tnPtAtjtDkt1q9.png';
+export const imgURL8 =
+	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/cust1-o9npx41dEPFONdpQIR21gNsVIzfTwm.png';
+export const imgURL9 =
+	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/DALL%C2%B7E%202024-01-24%2010.44.15%20-%20Visualize%20a%20sophisticated%20corporate%20setting%20for%20a%20real%20estate%20investment%20company.%20The%20scene%20depicts%20a%20modern,%20elegant%20office%20with%20a%20large%20window%20offer-vGyrEbFWohHVnHp9TPhI9DULjHNDgN.png';

@@ -2,16 +2,12 @@
 	import { imgURL1, imgURL2 } from '$lib/global';
 	import HeroTemplate from '$lib/components/HeroTemplate.svelte';
 	import PanAcross from '$lib/components/PanAcross.svelte';
-	import Vision from '$lib/components/Vision.svelte';
+	import Strategy from '$lib/components/Strategy.svelte';
 
 	let quoteProps = {
 		heading: 'Asset Management',
-		subheading: 'EXQUISITE',
-		content: `At BFJK, we redefine the essence of real estate asset management. With a keen eye for detail
-			and a commitment to excellence, we transform every square foot into a valuable asset. Our
-			approach combines innovative strategies with sustainable practices, ensuring that each project
-			we undertake not only meets, but exceeds expectations. BFJK stands as a beacon of inspiration
-			in the real estate industry, crafting spaces that grow, inspire, and endure.`,
+		subheading: 'BFJK',
+		content: `At BFJK Corp, we are a distinguished private asset management company specializing in the acquisition, development, and management of a diverse portfolio of high-end residential properties, large hotels, and other strategic real estate assets on a global scale. With an unwavering commitment to excellence and a passion for delivering exceptional value.`,
 		image: imgURL1
 	};
 </script>
@@ -27,5 +23,5 @@
 		alignment="right"
 		quote_string="Building value in every square foot, BFJK transforms spaces into assets that grow and inspire."
 	/>
-	<Vision />
+	<Strategy />
 </section>
