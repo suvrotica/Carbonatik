@@ -18,7 +18,7 @@
 	subheading={quoteProps.subheading}
 	content={quoteProps.content}
 	image={quoteProps.image}
-	mediaColumns="md:col-span-9"
-	contentColumns="md:col-span-3"
+	mediaColumns="md:col-span-6"
+	contentColumns="md:col-span-6"
 	alignment="left"
 />
