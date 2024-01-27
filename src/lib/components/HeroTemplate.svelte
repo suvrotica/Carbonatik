@@ -10,7 +10,7 @@
 	export let mediaColumns = 'md:col-span-5';
 	export let contentColumns = 'md:col-span-7';
 	export let image = 'Not Provided';
-	export let imageClass = 'zoom-image h-full object-contain';
+	export let imageClass = 'Not Provided';
 	export let alignment = 'right';
 	export let quote_string = 'Not Provided';
 	let visible = false;
@@ -35,7 +35,11 @@
 		>
 			{#if alignment === 'left'}
 				<div class={`${mediaColumns} hero_container_media`}>
-					<img src={image} alt="provided background" class={`${imageClass}`} />
+					<img
+						src={image}
+						alt="provided background"
+						class={`${imageClass} zoom-image  h-full object-cover`}
+					/>
 				</div>
 			{/if}
 
@@ -56,7 +60,11 @@
 
 			{#if alignment === 'right'}
 				<div class={`${mediaColumns} hero_container_media`}>
-					<img src={image} alt="provided background" class={`${imageClass}`} />
+					<img
+						src={image}
+						alt="provided background"
+						class={`${imageClass} zoom-image  h-full object-cover`}
+					/>
 				</div>
 			{/if}
 		</article>
