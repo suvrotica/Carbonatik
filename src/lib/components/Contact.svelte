@@ -26,6 +26,6 @@ At BFJK, your real estate vision is our passion. Let us help you turn your aspir
 		subheading={quoteProps.subheading}
 		content={quoteProps.content}
 		image={quoteProps.image}
-		alignment="left"
+		alignment="right"
 	/>
 </section>
