@@ -4,6 +4,8 @@
 	import PanAcross from '$lib/components/PanAcross.svelte';
 	import Vision from '$lib/components/Vision.svelte';
 	import Risk from '$lib/components/Risk.svelte';
+	import ClientSatisfaction from '$lib/components/ClientSatisfaction.svelte';
+	import Responsible from '$lib/components/Responsible.svelte';
 
 	let quoteProps = {
 		heading: 'Expertise',
@@ -23,3 +25,5 @@
 	/>
 </section>
 <Risk />
+<ClientSatisfaction />
+<Responsible />

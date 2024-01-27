@@ -36,3 +36,9 @@ export const imgURL13 =
 	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/a568a59d-3096-48a0-ad37-20cfe8fd0d9d-2Kl4ftDBBarYo554ehqJVdqUdX5PQv.png';
 export const imgURL14 =
 	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/DALL%C2%B7E%202024-01-27%2018.04.20%20-%20A%20realistic%20digital%20painting%20depicting%20a%20man%20climbing%20uphill%20with%20a%20house%20on%20his%20head.%20The%20man%20is%20shown%20in%20a%20strenuous%20pose,%20visibly%20struggling%20under%20-O8bVW4y8hFCpcw30RWsvvRG25YktVL.png';
+export const imgURL15 =
+	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/DALL%C2%B7E%202024-01-27%2018.25.27%20-%20A%20creative%20and%20surreal%20digital%20painting%20where%20the%20Sphinx%20of%20Giza%20comes%20to%20life%20with%20a%20real%20estate%20twist.%20In%20this%20version,%20the%20Sphinx,%20depicted%20in%20a%20re-S0d3UYaij0xX31wW61X5C3K1IuneqS.png';
+export const imgURL16 =
+	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/DALL%C2%B7E%202024-01-27%2018.37.22%20-%20A%2016_9%20landscape%20digital%20illustration%20depicting%20a%20salesman%20closing%20a%20deal.%20The%20scene%20should%20be%20set%20in%20a%20modern,%20professional%20office%20environment.%20The%20s-fsAK39pSlZmvU6Msh25l8VHjq7UpyB.png';
+export const imgURL17 =
+	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/DALL%C2%B7E%202024-01-27%2018.42.16%20-%20A%20crystal%20clear%20and%20sharp%20digital%20illustration%20of%20a%20surreal%20concept_%20a%20house%20resting%20on%20a%20metallic%20flower.%20The%20house%20should%20be%20a%20typical%20suburban%20home-ySkT078TW0JTHNDTTylCnLjgXR7ijf.png';

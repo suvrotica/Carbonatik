@@ -7,7 +7,6 @@
 	import Feature4 from '$lib/components/Feature4.svelte';
 	import Feature5 from '$lib/components/Feature5.svelte';
 	import CTA1 from '$lib/components/CTA1.svelte';
-	import CTA2 from '$lib/components/CTA2.svelte';
 
 	import Content1 from '$lib/components/Content1.svelte';
 	import Gallery1 from '$lib/components/Gallery1.svelte';
@@ -23,8 +22,8 @@
 </script>
 
 <About />
-<Portfolio />
 <Team />
+<Portfolio />	
 <Contact />
 <!-- <Home /> -->
 <!-- <Hero /> -->
