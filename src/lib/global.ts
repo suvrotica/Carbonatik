@@ -30,3 +30,9 @@ export const imgURL10 =
 	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/DALL%C2%B7E%202024-01-24%2011.25.29%20-%20Design%20a%20sophisticated%20new-age%20image%20for%20a%20global%20real%20estate%20investment%20company.%20The%20scene%20should%20feature%20a%20futuristic,%20high-tech%20office%20space%20with%20a-x5VQrmZnBAUSYqZRZDGW61KnCZ97F9.png';
 export const imgURL11 =
 	"https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/DALL%C2%B7E%202024-01-24%2011.35.16%20-%20Create%20a%20modern%20sci-fi%20inspired%20image,%20distinct%20in%20color%20space,%20for%20a%20real%20estate%20investment%20company's%20portfolio.%20The%20scene%20should%20depict%20a%20futuristic-ZxPNHA4DGMOzqTiqPIHMEJi4hNYwTO.png";
+export const imgURL12 =
+	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/a568a59d-3096-48a0-ad37-20cfe8fd0d9d-BWJZF9oLUDWlu6JCmXxWMo3ATY2Ovm.png';
+export const imgURL13 =
+	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/a568a59d-3096-48a0-ad37-20cfe8fd0d9d-2Kl4ftDBBarYo554ehqJVdqUdX5PQv.png';
+export const imgURL14 =
+	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/DALL%C2%B7E%202024-01-27%2018.04.20%20-%20A%20realistic%20digital%20painting%20depicting%20a%20man%20climbing%20uphill%20with%20a%20house%20on%20his%20head.%20The%20man%20is%20shown%20in%20a%20strenuous%20pose,%20visibly%20struggling%20under%20-O8bVW4y8hFCpcw30RWsvvRG25YktVL.png';

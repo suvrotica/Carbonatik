@@ -7,7 +7,10 @@
 	export let heading = 'Not Provided';
 	export let subheading = 'Not Provided';
 	export let content = 'Not Provided';
+	export let mediaColumns = 'md:col-span-5';
+	export let contentColumns = 'md:col-span-7';
 	export let image = 'Not Provided';
+	export let imageClass = 'zoom-image h-full object-contain';
 	export let alignment = 'right';
 	export let quote_string = 'Not Provided';
 	let visible = false;
@@ -31,12 +34,12 @@
 			on:inview_change={() => (fadeInOptions = { ...fadeInOptions, delay: 0 })}
 		>
 			{#if alignment === 'left'}
-				<div class="hero_container_media">
-					<img src={image} alt="provided background" class="zoom-image h-full object-cover" />
+				<div class={`${mediaColumns} hero_container_media`}>
+					<img src={image} alt="provided background" class={`${imageClass}`} />
 				</div>
 			{/if}
 
-			<div class="hero_container_content" transition:fade={{ delay: 2000 }}>
+			<div class={`${contentColumns} hero_container_content`} transition:fade={{ delay: 2000 }}>
 				<h3 transition:fade={{ delay: 3000 }}>
 					{heading}
 					<span class="span_underlined">{subheading}</span>
@@ -52,8 +55,8 @@
 			</div>
 
 			{#if alignment === 'right'}
-				<div class="hero_container_media">
-					<img src={image} alt="provided background" class="zoom-image h-full object-cover" />
+				<div class={`${mediaColumns} hero_container_media`}>
+					<img src={image} alt="provided background" class={`${imageClass}`} />
 				</div>
 			{/if}
 		</article>

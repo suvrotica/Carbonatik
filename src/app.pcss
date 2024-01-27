@@ -133,7 +133,7 @@ h4,
 h5,
 h6,
 blockquote {
-	@apply classico-bold prose prose-neutral m-4 leading-none tracking-tight text-neutral-900 subpixel-antialiased  dark:text-neutral-100;
+	@apply classico-bold prose prose-neutral m-4 leading-none tracking-tight text-neutral-900 subpixel-antialiased md:tracking-wide  dark:text-neutral-100;
 }
 h1 {
 	@apply text-6xl md:text-7xl;
@@ -154,14 +154,15 @@ h6 {
 	@apply text-xl md:text-2xl;
 }
 p {
-	@apply lara-light  m-4 text-justify text-base leading-none tracking-tight text-neutral-900 subpixel-antialiased    dark:text-neutral-100;
+	@apply lara-light   text-justify text-base leading-none tracking-tight text-neutral-900 subpixel-antialiased     dark:text-neutral-100;
 }
 footer,
+article,
 section,
 header,
 nav,
 .hero_container {
-	@apply bg-neutral-100   dark:bg-neutral-900;
+	@apply m-0 bg-neutral-100 p-0   dark:bg-neutral-900;
 }
 nav {
 	@apply flex items-center justify-between p-0;
@@ -179,18 +180,18 @@ ul li a {
 .gold {
 	@apply text-[#D4AF47];
 }
-img {
-	@apply bg-contain;
+.imgPhoto {
+	@apply h-full rounded-lg  object-cover object-top md:h-96;
 }
 .hero_container {
-	@apply m-4 flex flex-col-reverse gap-0 md:grid md:grid-cols-12;
+	@apply flex flex-col-reverse gap-0 md:grid md:grid-cols-12;
 }
 .hero_container_content {
-	@apply md:col-span-7;
+	@apply m-4;
 }
 
 .hero_container_media {
-	@apply mx-4 overflow-hidden md:col-span-5;
+	@apply m-4 snap-center justify-center overflow-hidden object-center;
 }
 blockquote {
 	@apply lara-light-italic border-l-4 border-neutral-400 pl-4 text-2xl;

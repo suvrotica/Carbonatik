@@ -3,6 +3,7 @@
 	import HeroTemplate from '$lib/components/HeroTemplate.svelte';
 	import PanAcross from '$lib/components/PanAcross.svelte';
 	import Vision from '$lib/components/Vision.svelte';
+	import Risk from '$lib/components/Risk.svelte';
 
 	let quoteProps = {
 		heading: 'Expertise',
@@ -21,3 +22,4 @@
 		alignment="left"
 	/>
 </section>
+<Risk />
