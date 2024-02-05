@@ -58,7 +58,7 @@
 				{/if}
 
 				<p transition:fade={{ delay: 4000 }}>
-					{content}
+					{@html content}
 				</p>
 			</div>
 
