@@ -35,11 +35,15 @@
 		>
 			{#if alignment === 'left'}
 				<div class={`${mediaColumns} hero_container_media`}>
-					<img
-						src={image}
-						alt="provided background"
-						class={`${imageClass} zoom-image  h-full object-cover`}
-					/>
+					{#if image !== 'Not Provided'}
+						<img
+							src={image}
+							alt="provided background"
+							class={`${imageClass} zoom-image h-full object-cover`}
+						/>
+					{:else}
+						<!-- Placeholder or alternative content here -->
+					{/if}
 				</div>
 			{/if}
 
@@ -60,11 +64,15 @@
 
 			{#if alignment === 'right'}
 				<div class={`${mediaColumns} hero_container_media`}>
-					<img
-						src={image}
-						alt="provided background"
-						class={`${imageClass} zoom-image  h-full object-cover`}
-					/>
+					{#if image !== 'Not Provided'}
+						<img
+							src={image}
+							alt="provided background"
+							class={`${imageClass} zoom-image h-full object-cover`}
+						/>
+					{:else}
+						<!-- Placeholder or alternative content here -->
+					{/if}
 				</div>
 			{/if}
 		</article>
