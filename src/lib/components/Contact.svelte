@@ -21,7 +21,10 @@ At BFJK, your real estate vision is our passion. Let us help you turn your aspir
 </script>
 
 <section id="contact">
+	<hr class="mb-12" />
 
+	<a href="mailto:jk@bfjkcorp.com" class="email">@JOSEPH</a>
+	<a href="mailto:bf@bfjkcorp.com" class="email">@BRENDAN</a>
 	<HeroTemplate
 		heading={quoteProps.heading}
 		subheading={quoteProps.subheading}
@@ -29,5 +32,4 @@ At BFJK, your real estate vision is our passion. Let us help you turn your aspir
 		image={quoteProps.image}
 		alignment="right"
 	/>
-
 </section>
