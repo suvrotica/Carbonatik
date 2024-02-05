@@ -14,7 +14,8 @@ Under Joseph's leadership, BFJK Corp has not only achieved remarkable growth but
 	};
 </script>
 
-<a href="mailto:jk@bfjkcorp.com" class="bg-blue-500 hover:bg-blue-700 text-white py-1 px-3 rounded-full text-xs">jk@bfjkcorp.com</a>
+<a href="mailto:jk@bfjkcorp.com" class="bg-neutral-500 hover:bg-neutral-700 text-neutral-100 p-4 m-4 rounded-full text-xs">jk@bfjkcorp.com</a>
+
 
 <HeroTemplate
 	heading={quoteProps.heading}
