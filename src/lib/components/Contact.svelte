@@ -28,4 +28,8 @@ At BFJK, your real estate vision is our passion. Let us help you turn your aspir
 		image={quoteProps.image}
 		alignment="right"
 	/>
+
+<a href="mailto:bf@bfjkcorp.com">bf@bfjkcorp.com</a>
+<br>
+<a href="mailto:jk@bfjkcorp.com">jk@bfjkcorp.com</a>
 </section>
