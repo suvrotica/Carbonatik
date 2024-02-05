@@ -21,6 +21,10 @@ At BFJK, your real estate vision is our passion. Let us help you turn your aspir
 </script>
 
 <section id="contact">
+<a href="mailto:bf@bfjkcorp.com" class="bg-blue-500 hover:bg-blue-700 text-white py-1 px-3 rounded-full text-xs">bf@bfjkcorp.com</a>
+<br>
+<a href="mailto:jk@bfjkcorp.com" class="bg-blue-500 hover:bg-blue-700 text-white py-1 px-3 rounded-full text-xs">jk@bfjkcorp.com</a>
+
 	<HeroTemplate
 		heading={quoteProps.heading}
 		subheading={quoteProps.subheading}
@@ -29,7 +33,4 @@ At BFJK, your real estate vision is our passion. Let us help you turn your aspir
 		alignment="right"
 	/>
 
-<a href="mailto:bf@bfjkcorp.com">bf@bfjkcorp.com</a>
-<br>
-<a href="mailto:jk@bfjkcorp.com">jk@bfjkcorp.com</a>
 </section>
