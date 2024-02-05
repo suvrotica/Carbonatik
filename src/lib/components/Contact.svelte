@@ -3,8 +3,8 @@
 	import HeroTemplate from '$lib/components/HeroTemplate.svelte';
 	let additionalContent = `
 		<hr class="mb-12" />
-		<a href="mailto:jk@bfjkcorp.com" class="email">@JOSEPH</a>
 		<a href="mailto:bf@bfjkcorp.com" class="email">@BRENDAN</a>
+		<a href="mailto:jk@bfjkcorp.com" class="email">@JOSEPH</a>
 	`;
 	let quoteProps = {
 		heading: 'Contact Us',
