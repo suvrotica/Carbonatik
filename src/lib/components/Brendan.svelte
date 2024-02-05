@@ -14,6 +14,8 @@ At the core of Brendan's philosophy is a commitment to building lasting relation
 	};
 </script>
 
+<a href="mailto:bf@bfjkcorp.com" class="bg-blue-500 hover:bg-blue-700 text-white py-1 px-3 rounded-full text-xs">bf@bfjkcorp.com</a>
+
 <HeroTemplate
 	heading={quoteProps.heading}
 	subheading={quoteProps.subheading}
