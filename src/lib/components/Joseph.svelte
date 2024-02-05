@@ -18,7 +18,7 @@ Under Joseph's leadership, BFJK Corp has not only achieved remarkable growth but
 	heading={quoteProps.heading}
 	subheading={quoteProps.subheading}
 	content={quoteProps.content}
-	image={quoteProps.image}
+	imageClass="imgPhoto"
 	mediaColumns="md:col-span-0"
 	contentColumns="md:col-span-12"
 	alignment="right"
