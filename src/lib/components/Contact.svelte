@@ -2,7 +2,7 @@
 	import { imgURL19} from '$lib/global';
 	import HeroTemplate from '$lib/components/HeroTemplate.svelte';
 	let additionalContent = `
-		<hr class="mb-12" />
+		<br class="mb-12" />
 		<a href="mailto:bf@bfjkcorp.com" class="email">@BRENDAN</a>
 		<a href="mailto:jk@bfjkcorp.com" class="email">@JOSEPH</a>
 	`;
