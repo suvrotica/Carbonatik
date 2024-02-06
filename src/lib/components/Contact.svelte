@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { imgURL19} from '$lib/global';
+	import { imgURL20} from '$lib/global';
 	import HeroTemplate from '$lib/components/HeroTemplate.svelte';
 	let additionalContent = `
 		<br class="mb-12" />
@@ -20,7 +20,7 @@ If you have any questions, need detailed information, or want to arrange a meeti
 At BFJK, your real estate vision is our passion. Let us help you turn your aspirations into reality.</p>
 
 `,
-		image: imgURL19
+		image: imgURL20
 	};
 </script>
 
