@@ -43,3 +43,4 @@ export const imgURL16 =
 export const imgURL17 =
 	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/DALL%C2%B7E%202024-01-27%2018.42.16%20-%20A%20crystal%20clear%20and%20sharp%20digital%20illustration%20of%20a%20surreal%20concept_%20a%20house%20resting%20on%20a%20metallic%20flower.%20The%20house%20should%20be%20a%20typical%20suburban%20home-ySkT078TW0JTHNDTTylCnLjgXR7ijf.png';
 export const imgURL18 = 'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/IMG-20240205-WA0011-L7tOXkHWBn3TCjaNC2SNTYwQdM0PWR.jpg' ;
+export const imgURL19 = 'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/d10d7892-4bca-4348-ae98-55a85d5042b4-6pf678xxUzTwX4ou2y0Dd4u5tfRSZl.png';
