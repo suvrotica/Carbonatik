@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { imgURL9 } from '$lib/global';
+	const imgSide= '/Images/goldmica.png' ;
 	import HeroTemplate from '$lib/components/HeroTemplate.svelte';
 
 	let quoteProps = {
@@ -10,7 +10,7 @@
 We prioritize sustainable mining practices, integrating advanced technologies like autonomous drilling systems and AI-powered sorting processes to maximize efficiency while minimizing environmental impact. Our strategic approach extends to processing and refining, where we invest in state-of-the-art facilities to enhance the value of our extracted minerals. In our gemstone division, we focus on ethical sourcing and cutting-edge processing techniques to produce premium quality stones.
 
 By strategically balancing our operations across various minerals and geographical locations, we maintain a resilient portfolio that can adapt to market fluctuations and ensure long-term value creation for our stakeholders. Our forward-thinking approach also involves continuous exploration and research into emerging mineral markets, positioning us at the forefront of the evolving global mining industry.`,
-		image: imgURL9
+		image: imgSide
 	};
 </script>
 
