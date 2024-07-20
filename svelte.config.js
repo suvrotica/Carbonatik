@@ -6,6 +6,10 @@ const config = {
 	preprocess: [vitePreprocess({})],
 
 	kit: {
+		 
+		 prerender: {
+			handleMissingId: 'ignore'
+		  },
 		adapter: adapter({
 			runtime: 'edge',
 			fallback: '404.html'
