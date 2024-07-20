@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { imgURL21 } from '$lib/global';
+	const imgSide='/Images/mine.jpg';
 	import HeroTemplate from '$lib/components/HeroTemplate.svelte';
 	import PanAcross from '$lib/components/PanAcross.svelte';
 	import Vision from '$lib/components/Vision.svelte';
@@ -15,7 +15,7 @@ We actively engage with local communities, providing employment opportunities, s
 In our gemstone division, we ensure ethical sourcing and maintain full traceability of our products. Our cutting and polishing facility not only adds value to our gemstones but also provides skilled employment opportunities for local artisans.
 
 By integrating these responsible practices into our operations, we strive to create lasting value for our stakeholders, employees, and the communities we serve. Our dedication to social responsibility, coupled with our commitment to excellence in mining, positions us as a leader in sustainable mineral and gemstone production.`,
-		image: imgURL21
+		image: imgSide
 	};
 </script>
 

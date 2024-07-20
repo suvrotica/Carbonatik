@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { imgURL16 } from '$lib/global';
+	const imgSide= '/Images/mine.jpg';
 	import HeroTemplate from '$lib/components/HeroTemplate.svelte';
 	import PanAcross from '$lib/components/PanAcross.svelte';
 	import Vision from '$lib/components/Vision.svelte';
@@ -15,7 +15,7 @@ We're developing a gold mica site, set to commence operations in October 2024, w
 Our operational quartz mine produces 1,000 tons of high-grade quartz monthly, with quality validation pending from NSL laboratories. Our gemstone division, the crown jewel of our operations, yields sapphires and various semi-precious stones, processed in our cutting and polishing facility staffed by 25 expert gem cutters.
 
 We maintain an unwavering commitment to sustainable practices and rigorous quality control across all operations, delivering premium products while responsibly managing natural resources. This diverse portfolio and focus on quality position us as a leader in the global mining sector.`,
-		image: imgURL16
+		image: imgSide
 	};
 </script>
 
@@ -23,8 +23,8 @@ We maintain an unwavering commitment to sustainable practices and rigorous quali
 	heading={quoteProps.heading}
 	subheading={quoteProps.subheading}
 	content={quoteProps.content}
-	image={quoteProps.image}
-	mediaColumns="md:col-span-9"
-	contentColumns="md:col-span-3"
+	video="Videos/graphite.mp4"
+	mediaColumns="md:col-span-5"
+	contentColumns="md:col-span-7"
 	alignment="right"
 />

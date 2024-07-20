@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { imgURL20 } from '$lib/global';
+	const imgSide='/Images/sem1.png';
 	import HeroTemplate from '$lib/components/HeroTemplate.svelte';
 	let additionalContent = `
 		<br class="mb-12" />
@@ -33,7 +33,7 @@ If you have any questions about our mining technologies, need detailed informati
 At our company, your vision for mineral resource utilization is our passion. Let us help you turn your mining aspirations into reality.</p>
 
 `,
-		image: imgURL20
+		image: imgSide
 	};
 </script>
 

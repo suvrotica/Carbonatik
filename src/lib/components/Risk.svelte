@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { imgURL14 } from '$lib/global';
+	const imgSide='/Images/mine.jpg';
 	import HeroTemplate from '$lib/components/HeroTemplate.svelte';
 
 	let quoteProps = {
@@ -14,7 +14,7 @@ To address operational risks, we utilize IoT-enabled equipment with predictive m
 Market risks, including price volatility in graphite and precious stones, are hedged through a combination of forward contracts and options. Our in-house market intelligence team uses machine learning algorithms to forecast market trends and adjust production accordingly.
 
 Regulatory compliance in Sri Lanka's evolving mining sector is ensured through our custom-built compliance management software, which tracks all relevant regulations and our adherence to them in real-time. This system interfaces directly with local regulatory bodies for seamless reporting.`,
-		image: imgURL14
+		image: imgSide
 	};
 </script>
 
@@ -23,10 +23,10 @@ Regulatory compliance in Sri Lanka's evolving mining sector is ensured through o
 		heading={quoteProps.heading}
 		subheading={quoteProps.subheading}
 		content={quoteProps.content}
-		image={quoteProps.image}
-		imageClass="imgPhoto"
-		mediaColumns="md:col-span-6"
-		contentColumns="md:col-span-6"
-		alignment="right"
+		video="Videos/mica.mp4"
+		
+		mediaColumns="md:col-span-5"
+		contentColumns="md:col-span-7"
+		alignment="left"
 	/>
 </section>
