@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { imgURL11 } from '$lib/global';
+	const imgSide='/Images/graphite.png';
 	import HeroTemplate from '$lib/components/HeroTemplate.svelte';
 	import PanAcross from '$lib/components/PanAcross.svelte';
 	import Vision from '$lib/components/Vision.svelte';
@@ -17,7 +17,7 @@ Our commitment to innovation extends to data-driven decision making. We've imple
 Environmental stewardship is enhanced through our use of drone technology for real-time monitoring of environmental impacts, coupled with IoT sensors that provide continuous data on air and water quality. This proactive approach ensures we maintain the highest standards of environmental responsibility while maximizing operational efficiency.
 
 By continually investing in and developing these new technological capabilities, we not only enhance our competitive edge but also drive the entire mining industry towards a more efficient, safe, and sustainable future.`,
-		image: imgURL11
+		image: imgSide
 	};
 </script>
 

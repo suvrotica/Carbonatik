@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { imgURL10 } from '$lib/global';
+	const imgSide='/Images/scene.png';
 	import HeroTemplate from '$lib/components/HeroTemplate.svelte';
 	import Leaflet from '$lib/components/Leaflet.svelte';
 
@@ -22,7 +22,7 @@ Explore our global reach through our interactive world map:
    - Environmental initiatives
 
 This interactive feature provides a comprehensive view of our global mining operations, emphasizing our strong presence in Sri Lanka and our commitment to transparent, technologically advanced, and environmentally conscious mining practices across all our locations.`,
-		image: imgURL10
+		image: imgSide
 	};
 </script>
 <Leaflet />
