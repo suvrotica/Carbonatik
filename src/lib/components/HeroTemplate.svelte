@@ -4,15 +4,18 @@
 	import { inview } from 'svelte-inview';
 	import Quote from '$lib/components/Quote.svelte';
 	import GoldLine from '$lib/components/GoldLine.svelte';
+	
 	export let heading = 'Not Provided';
 	export let subheading = 'Not Provided';
 	export let content = 'Not Provided';
 	export let mediaColumns = 'md:col-span-5';
 	export let contentColumns = 'md:col-span-7';
 	export let image = 'Not Provided';
+	export let video = 'Not Provided'; // New prop for video
 	export let imageClass = 'Not Provided';
 	export let alignment = 'right';
 	export let quote_string = 'Not Provided';
+	
 	let visible = false;
 	onMount(() => {
 		visible = true;
@@ -35,7 +38,18 @@
 		>
 			{#if alignment === 'left'}
 				<div class={`${mediaColumns} hero_container_media`}>
-					{#if image !== 'Not Provided'}
+					{#if video !== 'Not Provided'}
+						<video
+							src={video}
+							class={`${imageClass} zoom-image h-full object-cover`}
+							autoplay
+							loop
+							muted
+							playsinline
+						>
+							Your browser does not support the video tag.
+						</video>
+					{:else if image !== 'Not Provided'}
 						<img
 							src={image}
 							alt="provided background"
@@ -64,7 +78,18 @@
 
 			{#if alignment === 'right'}
 				<div class={`${mediaColumns} hero_container_media`}>
-					{#if image !== 'Not Provided'}
+					{#if video !== 'Not Provided'}
+						<video
+							src={video}
+							class={`${imageClass} zoom-image h-full object-cover`}
+							autoplay
+							loop
+							muted
+							playsinline
+						>
+							Your browser does not support the video tag.
+						</video>
+					{:else if image !== 'Not Provided'}
 						<img
 							src={image}
 							alt="provided background"
@@ -79,6 +104,7 @@
 		<GoldLine />
 	{/if}
 </a>
+
 
 <style>
 	.zoom-image {

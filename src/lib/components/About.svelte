@@ -28,7 +28,7 @@ We're dedicated to setting new industry standards for responsible mining, ensuri
 		heading={quoteProps.heading}
 		subheading={quoteProps.subheading}
 		content={quoteProps.content}
-		image={quoteProps.image}
+		video="Videos/graphite.mp4"
 		alignment="right"
 		quote_string="Turning carbon footprints into stepping stones for a sustainable future, Carbonatik leads the way in innovative offset solutions."
 	/>

@@ -2,13 +2,27 @@
 	import { tweened } from 'svelte/motion';
 	import { cubicOut } from 'svelte/easing';
 
+	// export let images = [
+	// 	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/ShqZ-4JDTHqxOyIbz2VeYQ-axWDLxIGAp8RDP26u85DoEwO9NSNxL.webp',
+	// 	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/LpOzWj8uQASBVfErdisKyQ-JA5nM4C7QCCpb5dEUSMV61vnxuUi3S.webp',
+	// 	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/_KsCBIzRTi-9wdcCgYxDxQ-jjxGpXmKekBTxt9ejeILsr1qQlgiam.webp',
+	// 	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/ta4MQxFdSgaTQ1peILdcRQ-wxJIp7rA6QkAotgMDFubVEqanQSC78.webp',
+	// 	'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/wScuRI74QmWCgXTWl1wZVw-iAOqCKpByuGVJkAkO86JulPGyoqdAo.webp'
+	// ]; // Array of image URLs passed as a prop
 	export let images = [
-		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/ShqZ-4JDTHqxOyIbz2VeYQ-axWDLxIGAp8RDP26u85DoEwO9NSNxL.webp',
-		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/LpOzWj8uQASBVfErdisKyQ-JA5nM4C7QCCpb5dEUSMV61vnxuUi3S.webp',
-		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/_KsCBIzRTi-9wdcCgYxDxQ-jjxGpXmKekBTxt9ejeILsr1qQlgiam.webp',
-		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/ta4MQxFdSgaTQ1peILdcRQ-wxJIp7rA6QkAotgMDFubVEqanQSC78.webp',
-		'https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/wScuRI74QmWCgXTWl1wZVw-iAOqCKpByuGVJkAkO86JulPGyoqdAo.webp'
-	]; // Array of image URLs passed as a prop
+  '/Images/Quartz/quartz(1).jpeg',
+  '/Images/Quartz/quartz(2).jpeg',
+  '/Images/Quartz/quartz(3).jpeg',
+  '/Images/Quartz/quartz(4).jpeg',
+  '/Images/Quartz/quartz(5).jpeg',
+  '/Images/Quartz/quartz(6).jpeg',
+  '/Images/Quartz/quartz(7).jpeg',
+  '/Images/Quartz/quartz(8).jpeg',
+  '/Images/Quartz/quartz(9).jpeg',
+  '/Images/Quartz/quartz(10).jpeg',
+  '/Images/Quartz/quartz(11).jpeg',
+  '/Images/Quartz/quartz(12).jpeg'
+];
 	const position = tweened(0, {
 		duration: 5000,
 		easing: cubicOut
