@@ -9,13 +9,19 @@
 
 	let quoteProps = {
 		heading: 'Expertise',
-		subheading: 'PORTFOLIO',
-		content: `Our portfolio comprises a carefully curated selection of high-end residential properties and large-scale hotels renowned for their architectural excellence, superior craftsmanship, and iconic value. As astute investment managers, we continually assess market conditions, identifying opportunities for value enhancement through strategic renovations, repositioning, and optimization of operational efficiencies. This proactive approach ensures that our assets yield sustainable returns and maintain their esteemed status in the marketplace.`,
+		subheading: 'TECHNOLOGICAL INNOVATION',
+		content: `Our mining operations showcase a pioneering integration of cutting-edge technologies, setting new industry standards for efficiency, safety, and sustainability. We've deployed advanced robotics systems across our diverse portfolio of graphite, gold mica, granite, quartz, and gemstone mines. Autonomous drilling rigs and robotic sorting systems enhance precision and productivity in our extraction processes. In our underground operations, we utilize remote-controlled robots for exploration and mapping, significantly reducing risks to human personnel.
+
+Our commitment to innovation extends to data-driven decision making. We've implemented AI-powered predictive maintenance systems that optimize equipment performance and minimize downtime. In our gemstone division, we employ state-of-the-art spectroscopic technology and machine learning algorithms for rapid, accurate gemstone classification and quality assessment.
+
+Environmental stewardship is enhanced through our use of drone technology for real-time monitoring of environmental impacts, coupled with IoT sensors that provide continuous data on air and water quality. This proactive approach ensures we maintain the highest standards of environmental responsibility while maximizing operational efficiency.
+
+By continually investing in and developing these technological capabilities, we not only enhance our competitive edge but also drive the entire mining industry towards a more efficient, safe, and sustainable future.`,
 		image: imgURL11
 	};
 </script>
 
-<section id="portfolio">
+<section id="technology">
 	<HeroTemplate
 		heading={quoteProps.heading}
 		subheading={quoteProps.subheading}

@@ -1,13 +1,13 @@
 <a href="/">
 	<img
-		src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/IMG-20231226-WA0003-MdiT3WBgM0ojEtdRx9QMJj2Sr6Jfei.jpg"
-		class=" inline h-14 rounded-none dark:hidden"
+		src='logo.png'
+		class=" inline h-14 rounded-none invert dark:hidden"
 		alt="White Logo"
 	/>
 
 	<img
-		src="https://wqz50k0spm0gyalr.public.blob.vercel-storage.com/IMG-20231209-WA0010-ophLQTNOdwP7maPYYp16CTgUjMcaWp.jpg"
-		class=" hidden h-14 rounded-none dark:inline"
+	src='logo.png'
+	class=" hidden h-14 rounded-none dark:inline"
 		alt="Dark Logo"
 	/>
 </a>

@@ -3,13 +3,17 @@
 	import HeroTemplate from '$lib/components/HeroTemplate.svelte';
 
 	let quoteProps = {
-		heading: 'Brendan Fitzpatrick ( BF ) ',
-		subheading: 'FOUNDER',
-		content: `Brendan Fitzpatrick, co-founder of BFJK Corp, stands as a beacon of innovation and excellence in the real estate asset management industry. With a rich background in real estate finance and development, Brendan has been a key architect in building BFJK's prestigious portfolio. His expertise lies in leveraging financial acumen and market insight to drive growth and maximize asset value.
+		heading: 'Brendan T Fitzpatrick',
+		subheading: 'PRESIDENT',
+		content: `Brendan T Fitzpatrick, President of Carbonatik, is a key driving force behind the company's mission to provide innovative carbon offset solutions. With his extensive experience in business strategy and environmental initiatives, Brendan plays a crucial role in shaping Carbonatik's approach to addressing global climate challenges.
 
-Brendan's strategic leadership has been crucial in navigating the complexities of the real estate market, consistently delivering results that exceed investor expectations. His forward-thinking approach has led BFJK Corp to embrace technological advancements, ensuring efficiency and competitiveness in a rapidly evolving industry.
+As President, Brendan works closely with CEO Joseph Kamalesh Swaminathan and the rest of the executive team to steer Carbonatik's strategic direction. His leadership is instrumental in developing and implementing sustainable practices that make a real impact on reducing carbon footprints for businesses and individuals worldwide.
 
-At the core of Brendan's philosophy is a commitment to building lasting relationships with investors, clients, and communities. He champions a holistic approach to asset management, emphasizing not only financial performance but also social responsibility and sustainability. This has established BFJK Corp as a trusted and responsible player in the asset management landscape.`,
+Brendan's expertise lies in bridging the gap between environmental science and practical business solutions. He has been pivotal in establishing Carbonatik as a leader in the carbon offset market, ensuring that the company's methodologies are not only scientifically sound but also economically viable and easily implementable for clients.
+
+Under Brendan's guidance, Carbonatik has developed a reputation for integrity, innovation, and measurable results in carbon offsetting. His commitment to transparency and efficacy in carbon reduction strategies has set new standards in the industry, making Carbonatik a trusted partner for organizations seeking to make a genuine environmental impact.
+
+Brendan's vision aligns perfectly with Carbonatik's mission to create a sustainable future. He continues to drive the company forward, fostering partnerships, encouraging research and development, and ensuring that Carbonatik remains at the forefront of the global effort to combat climate change.`,
 		image: imgURL18
 	};
 </script>
@@ -18,9 +22,8 @@ At the core of Brendan's philosophy is a commitment to building lasting relation
 	heading={quoteProps.heading}
 	subheading={quoteProps.subheading}
 	content={quoteProps.content}
-	image={quoteProps.image}
 	imageClass="imgPhoto"
-	mediaColumns="md:col-span-3"
-	contentColumns="md:col-span-9"
-	alignment="left"
+	mediaColumns="md:col-span-0"
+	contentColumns="md:col-span-12"
+	alignment="right"
 />

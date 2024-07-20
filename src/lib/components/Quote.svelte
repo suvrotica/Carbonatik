@@ -6,5 +6,5 @@
 	<p>
 		{quote_string}
 	</p>
-	<cite> — BFJK Real Estate Asset Management </cite>
+	<cite> — Carbonatik Carbon Offset Solutions </cite>
 </blockquote>

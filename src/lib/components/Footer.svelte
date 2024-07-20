@@ -3,5 +3,5 @@
 </script>
 
 <footer>
-	<p>© 2024 BFJK. All Rights Reserved.</p>
+	<p>© 2024 Carbonatik. All Rights Reserved.</p>
 </footer>

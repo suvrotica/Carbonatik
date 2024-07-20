@@ -8,7 +8,13 @@
 	let quoteProps = {
 		heading: 'Responsibility',
 		subheading: 'SOCIAL',
-		content: `As responsible global citizens, we acknowledge the importance of integrating sustainability practices and social responsibility into our investment strategies. We are committed to identifying and implementing environmentally conscious initiatives that promote energy efficiency, sustainable design, and community engagement. By doing so, we strive to create lasting value for both our clients and the communities in which we operate. Together with our dedicated team of professionals, renowned partners, and esteemed investors, we are poised to continue our legacy of excellence in private asset management. At BFJK, we are driven by a shared vision of delivering exceptional returns and creating enduring value from our global real estate investments.`,
+		content: `As responsible miners, we recognize the profound impact our operations have on local communities and the environment. Our commitment to social responsibility is ingrained in every aspect of our mining activities. We prioritize sustainable mining practices that minimize environmental disruption and maximize resource efficiency. Our state-of-the-art water treatment facilities and dry-stack tailings management systems significantly reduce our environmental footprint.
+
+We actively engage with local communities, providing employment opportunities, supporting education initiatives, and contributing to infrastructure development. Our community outreach programs include skills training for local residents, health clinics, and collaborative projects to preserve cultural heritage sites near our mining operations.
+
+In our gemstone division, we ensure ethical sourcing and maintain full traceability of our products. Our cutting and polishing facility not only adds value to our gemstones but also provides skilled employment opportunities for local artisans.
+
+By integrating these responsible practices into our operations, we strive to create lasting value for our stakeholders, employees, and the communities we serve. Our dedication to social responsibility, coupled with our commitment to excellence in mining, positions us as a leader in sustainable mineral and gemstone production.`,
 		image: imgURL21
 	};
 </script>

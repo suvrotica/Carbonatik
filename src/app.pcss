@@ -3,159 +3,121 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Define Classico Regular */
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
 @font-face {
-	font-family: 'Classico';
-	src: url('/font/Classico/Classico.otf') format('opentype');
-	font-weight: normal; /* Regular */
-	font-style: normal;
+  font-family: 'Noto Sans Variable';
+  src: url('/Fonts/Noto/NotoSans-VariableFont_wdth,wght.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: normal;
 }
 
-/* Define Classico Bold */
 @font-face {
-	font-family: 'Classico';
-	src: url('/font/Classico/Classico-Bold.otf') format('opentype');
-	font-weight: bold; /* Bold */
-	font-style: normal;
+  font-family: 'Noto Sans Variable';
+  src: url('/Fonts/Noto/NotoSans-Italic-VariableFont_wdth,wght.ttf') format('truetype-variations');
+  font-weight: 100 900;
+  font-style: italic;
 }
+@layer utilities {
+  .padmar {
+    @apply p-1 m-1;
+  }
 
-/* Define Lara Book */
-@font-face {
-	font-family: 'Lara';
-	src: url('/font/Lara/LaraBook.otf') format('opentype');
-	font-weight: normal; /* Adjust if 'book' has a specific weight */
-	font-style: normal;
-}
+  .noto {
+    font-family: 'Noto Sans Variable', sans-serif;
+  }
 
-/* Define Lara Light */
-@font-face {
-	font-family: 'Lara';
-	src: url('/font/Lara/LaraLight.otf') format('opentype');
-	font-weight: 300; /* Light */
-	font-style: normal;
-}
+  .textStyle {
+    @apply noto padmar text-base md:text-lg leading-tight tracking-tighter text-neutral-900 antialiased dark:text-neutral-100;
+  }
 
-/* Define Lara Regular */
-@font-face {
-	font-family: 'Lara';
-	src: url('/font/Lara/LaraRegular.otf') format('opentype');
-	font-weight: normal; /* Regular */
-	font-style: normal;
-}
+  .radialDark {
+    background: radial-gradient(#333, #000);
+  }
 
-/* Define Lara Book Italic */
-@font-face {
-	font-family: 'Lara';
-	src: url('/font/Lara/LaraBookItalic.otf') format('opentype');
-	font-weight: normal; /* Adjust if 'book' has a specific weight */
-	font-style: italic;
+  .radialLight {
+    background: radial-gradient(#bbb, #fff);
+  }
 }
+@layer base {
+  body {
+    @apply padmar radialLight dark:radialDark text-neutral-950 dark:text-neutral-100 text-center;
+  }
 
-/* Define Lara Light Italic */
-@font-face {
-	font-family: 'Lara';
-	src: url('/font/Lara/LaraLightItalic.otf') format('opentype');
-	font-weight: 300; /* Light */
-	font-style: italic;
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  blockquote {
+    @apply textStyle font-thin tracking-wider;
+  }
 
-/* Define Lara Regular Italic */
-@font-face {
-	font-family: 'Lara';
-	src: url('/font/Lara/LaraRegularItalic.otf') format('opentype');
-	font-weight: normal; /* Regular */
-	font-style: italic;
-}
+  h1 {
+    @apply text-6xl md:text-7xl;
+  }
 
-/* Classico Font Styles */
+  h2 {
+    @apply text-5xl md:text-6xl;
+  }
 
-.classico-font {
-	font-family: 'Classico', sans-serif;
-}
+  h3 {
+    @apply text-4xl md:text-5xl;
+  }
 
-.classico-normal {
-	font-family: 'Classico', sans-serif;
-	font-weight: normal;
-	font-style: normal;
-}
+  h4 {
+    @apply text-3xl md:text-4xl;
+  }
 
-.classico-bold {
-	font-family: 'Classico', sans-serif;
-	font-weight: bold;
-	font-style: normal;
-}
+  h5 {
+    @apply text-2xl md:text-3xl;
+  }
 
-/* Lara Font Styles */
+  h6 {
+    @apply text-xl md:text-2xl;
+  }
 
-.lara-font {
-	font-family: 'Lara', sans-serif;
-}
-.lara-book {
-	font-family: 'Lara', sans-serif;
-	font-weight: normal; /* Adjust if 'book' has a specific weight */
-	font-style: normal;
-}
-
-.lara-light {
-	font-family: 'Lara', sans-serif;
-	font-weight: 300; /* Light */
-	font-style: normal;
-}
-
-.lara-regular {
-	font-family: 'Lara', sans-serif;
-	font-weight: normal;
-	font-style: normal;
-}
-
-.lara-book-italic {
-	font-family: 'Lara', sans-serif;
-	font-weight: normal; /* Adjust if 'book' has a specific weight */
-	font-style: italic;
-}
-
-.lara-light-italic {
-	font-family: 'Lara', sans-serif;
-	font-weight: 300; /* Light */
-	font-style: italic;
-}
-
-.lara-regular-italic {
-	font-family: 'Lara', sans-serif;
-	font-weight: normal;
-	font-style: italic;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-blockquote {
-	@apply classico-bold prose prose-neutral my-4 leading-none tracking-tight text-neutral-900 subpixel-antialiased md:tracking-wide  dark:text-neutral-100;
-}
-h1 {
-	@apply text-6xl md:text-7xl;
-}
-h2 {
-	@apply text-5xl md:text-6xl;
-}
-h3 {
-	@apply text-4xl md:text-5xl;
-}
-h4 {
-	@apply text-3xl md:text-4xl;
-}
-h5 {
-	@apply text-2xl md:text-3xl;
-}
-h6 {
-	@apply text-xl md:text-2xl;
-}
+  
 p {
-	@apply lara-light   text-justify text-base leading-none tracking-tight text-neutral-900 subpixel-antialiased     dark:text-neutral-100;
+  @apply noto font-thin text-justify text-base leading-relaxed tracking-normal text-neutral-900 subpixel-antialiased dark:text-neutral-100 dark:antialiased;
 }
+  figcaption {
+    @apply textStyle font-thin;
+  }
+
+  img,
+  figure,
+  footer,
+  article,
+  section,
+  header,
+  nav,
+  .hero_container,
+  .hero_container_content,
+  .hero_container_media {
+    @apply padmar shadow-lg shadow-neutral-200 dark:shadow-neutral-950;
+  }
+
+  footer,
+  article,
+  section,
+  header,
+  nav,
+  .hero_container {
+    @apply bg-neutral-100 dark:bg-neutral-900;
+  }
+
+  hr {
+    @apply my-4 border-none;
+  }
+}
+
 footer,
 article,
 section,
@@ -173,14 +135,14 @@ nav {
 	@apply flex items-center justify-between p-0;
 }
 ul li a {
-	@apply lara-light block rounded bg-neutral-300 py-0
+	@apply noto block rounded bg-neutral-300 py-0
                                 pl-3 pr-4 text-base text-neutral-950 hover:bg-neutral-400 md:bg-transparent md:text-neutral-600 md:hover:bg-transparent md:hover:text-neutral-700 dark:bg-neutral-700 dark:text-neutral-200 dark:hover:bg-neutral-600 dark:hover:text-neutral-300;
 }
 .hamburger {
 	@apply inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-neutral-500 hover:bg-neutral-200 focus:outline-none focus:ring-2 focus:ring-neutral-300 md:hidden dark:text-neutral-400 dark:hover:bg-neutral-600 dark:focus:ring-neutral-500;
 }
 .span_underlined {
-	@apply lara-light-italic text-2xl underline decoration-neutral-400 decoration-8 underline-offset-4;
+	@apply noto text-2xl underline decoration-neutral-400 decoration-8 underline-offset-4;
 }
 .gold {
 	@apply text-[#D4AF47];
@@ -199,8 +161,8 @@ ul li a {
 	@apply m-4 snap-center justify-center overflow-hidden object-center;
 }
 blockquote {
-	@apply lara-light-italic border-l-4 border-neutral-400 pl-4 text-2xl;
+	@apply noto border-l-4 border-neutral-400 pl-4 text-2xl;
 }
 .email {
-	@apply lara-light-italic my-2 ml-4 rounded bg-neutral-200 p-2 text-2xl text-xs text-neutral-900 hover:bg-neutral-400 dark:bg-neutral-700 dark:text-neutral-100 dark:hover:bg-neutral-800;
+	@apply noto my-2 ml-4 rounded bg-neutral-200 p-2 text-2xl text-xs text-neutral-900 hover:bg-neutral-400 dark:bg-neutral-700 dark:text-neutral-100 dark:hover:bg-neutral-800;
 }
