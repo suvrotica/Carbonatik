@@ -5,13 +5,13 @@
 	let quoteProps = {
 		heading: 'Segar Muthumurugesu',
 		subheading: 'VICE PRESIDENT - OPERATIONS - SRI LANKA',
-		content: `Segar Muthumurugesu, serving as the Vice President of Operations for Sri Lanka at Carbonatik, brings a wealth of local expertise and operational acumen to our team. His deep understanding of Sri Lanka's environmental landscape and business ecosystem has been invaluable in establishing and expanding Carbonatik's presence in the region.
+		content: `Segar Muthumurugesu, serving as the Vice President of Operations at Carbonatik. His deep understanding of the country's geological landscape, regulatory environment, and business ecosystem has been invaluable in establishing and expanding Carbonatik's presence in the region.
 
-Segar's role is crucial in implementing Carbonatik's carbon offset strategies in Sri Lanka, ensuring that our solutions are tailored to meet the unique needs of the local market while adhering to global standards. His leadership has been instrumental in developing partnerships with local industries, government bodies, and environmental organizations, creating a strong network for impactful carbon reduction initiatives.
+Segar's role is crucial in implementing Carbonatik's mining strategies in Sri Lanka, ensuring that our operations are optimized to meet the unique challenges of the local terrain while adhering to international standards of quality and safety. His leadership has been instrumental in developing partnerships with local industries, government bodies, and communities, creating a strong network that supports our responsible mining initiatives.
 
-With a keen focus on operational efficiency and sustainability, Segar has been at the forefront of introducing innovative carbon offset projects in Sri Lanka. His efforts have significantly contributed to raising awareness about climate change mitigation in the country and positioning Carbonatik as a leader in sustainable practices in the region.
+With a keen focus on operational efficiency and sustainability, Segar has been at the forefront of introducing innovative mining techniques and environmental management practices in Sri Lanka. His efforts have significantly contributed to optimizing our extraction processes for graphite, quartz, and other minerals, while minimizing environmental impact and fostering positive relationships with local communities.
 
-Segar's commitment to fostering a culture of environmental responsibility within Sri Lankan businesses has not only driven Carbonatik's growth but also contributed to the overall sustainability goals of the nation.`,
+Segar's commitment to fostering a culture of operational excellence and environmental responsibility within Carbonatik's Sri Lankan operations has not only driven our company's growth but also contributed to the overall economic development of the region. Under his guidance, our mining projects in Sri Lanka have become models of sustainable resource extraction, balancing productivity with environmental stewardship.`,
 		image: imgURL18
 	};
 </script>
